@@ -1,0 +1,78 @@
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta según el tamaño del contenedor deseado */
+    background-color: #000000; /* Fondo opcional para mejor visualización */
+  }
+  
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px; /* Ajusta el tamaño del contenedor según sea necesario */
+    height: 800px;
+    background-color: #000000; /* Fondo opcional para mejor visualización */
+    border: 6px solid #ddd; /* Bordes opcionales */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+    border-radius: 15px; /* Bordes redondeados */
+    overflow: hidden; /* Para que el contenido respete los bordes redondeados */
+  }
+  
+  .grid-item {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .item-1 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px 0 0 0; /* Bordes redondeados específicos */
+  }
+  
+  .item-1 .text-box {
+    background-color: gray;
+    color: rgb(255, 255, 255);
+    border: 7px solid black;
+    padding: 10px;
+    border-radius: 10px; /* Bordes redondeados dentro del cuadro de texto */
+    font-family: Helvetica;
+  }
+  
+  .item-2 {
+    background-color: rgb(0, 0, 0);
+    border-radius: 0 15px 0 0; /* Bordes redondeados específicos */
+  }
+  
+  .item-2 .image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px; /* Bordes redondeados de la imagen */
+  }
+  
+  .item-3 {
+    background-color: rgb(0, 0, 0);
+    border-radius: 0 0 0 15px; /* Bordes redondeados específicos */
+  }
+  
+  .item-3 .image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px; /* Bordes redondeados de la imagen */
+  }
+  
+  .item-4 {
+    background-color: gray;
+    border-radius: 0 0 15px 0; /* Bordes redondeados específicos */
+  }
+  
+  .item-4 .text-box {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px; /* Bordes redondeados dentro del cuadro de texto */
+    font-family: Helvetica;
+  }
+  

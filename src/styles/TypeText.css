@@ -1,0 +1,36 @@
+/* Archivo: src/styles/Subscription.css */
+
+.subscription {
+    padding: 20px;
+  }
+  
+  .subscription h2 {
+    text-align: center;
+  }
+  
+  .subscription-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .subscription-card {
+    background-color: #f0f0f0; /* Fondo opcional para mejor visualización */
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+  }
+  
+  /* Clases para letras negras y blancas */
+  .text-black {
+    color: black;
+    font-family: Helvetica;
+  }
+  
+  .text-white {
+    color: white;
+    font-family: Helvetica;
+  }
+  
