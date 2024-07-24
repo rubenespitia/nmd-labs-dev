@@ -85,6 +85,7 @@ export default function Component() {
                     borderColor: "rgb(229, 231, 235)",
                     boxSizing: "border-box",
                     marginBottom: "0.5rem",
+                    fontFamily:"Helvetica"
                   }}
                 >
                   SOCIAL PROOF
@@ -115,6 +116,7 @@ export default function Component() {
                     borderStyle: "solid",
                     borderColor: "rgb(229, 231, 235)",
                     boxSizing: "border-box",
+                    fontFamily:"Helvetica"
                   }}
                 >
                   Nos encanta trabajar con fundadores ambiciosos. ¡Por suerte, a ellos también les gusta diseñar con nosotros!
@@ -268,6 +270,8 @@ export default function Component() {
                                 borderStyle: "solid",
                                 borderColor: "rgb(229, 231, 235)",
                                 boxSizing: "border-box",
+                                fontFamily:"Helvetica",
+                                justifyContent:'center'
                               }}
                             >
                               “Trabajar con NOMADA es
@@ -651,6 +655,7 @@ export default function Component() {
                                 borderStyle: "solid",
                                 borderColor: "rgb(229, 231, 235)",
                                 boxSizing: "border-box",
+                                fontFamily:"Helvetica"
                               }}
                             >
                               "Contratar a este equipo ha sido una de las
@@ -658,12 +663,7 @@ export default function Component() {
                                 nuestra empresa. De gastar recursos en
                                 campañas ineficaces, hemos pasado a
                                 liderar en nuestro sector gracias a sus
-                                estrategias de marketing digital. La
-                                metodología personalizada nos ha
-                                permitido no solo aumentar nuestras
-                                conversiones, sino también establecer una
-                                presencia sólida y destacada en el
-                                mercado. Altamente recomendados."
+                                estrategias de marketing digital."
                             </div>
                           </h3>
                         </div>{" "}
@@ -938,6 +938,7 @@ export default function Component() {
                                 borderStyle: "solid",
                                 borderColor: "rgb(229, 231, 235)",
                                 boxSizing: "border-box",
+                                fontFamily:"Helvetica"
                               }}
                             >
                               "Nuestra experiencia con este laboratorio
@@ -946,11 +947,7 @@ export default function Component() {
                               nuestro presupuesto, sino que han
                               desarrollado estrategias precisas que han
                               impulsado nuestro crecimiento de manera
-                              significativa. 
-                              Su enfoque en crear
-                              contenido valioso y conectar con nuestra
-                              audiencia ha transformado la percepción
-                              de nuestra marca en el mercado.”
+                              significativa. ”
                             </div>
                           </h3>
                         </div>{" "}

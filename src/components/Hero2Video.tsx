@@ -233,7 +233,7 @@ export default function Component() {
                         }}
                       >
                         {" "}
-                        Llamanos →
+                        Llamanos
                       </button>
                     </a>{" "}
                   </div>
@@ -283,14 +283,15 @@ export default function Component() {
         </div>
       </div>
         <div className="centered-container">
-          <div className="grid-container">
-            <div className="grid-item item-1">
-              <div className="text-box">
-                <h4>
+          <div className="grid-container" style={{borderWidth:'0px'}}>
+            <div className="grid-item item-1" style={{display:"flex"}}>
+              <div className="text-box" style={{borderWidth:'0px'}}>
+                <h4 style={{fontFamily:'Helvetica', fontSize:'30px', color:'#F9F6EF', fontWeight:'bold'}}>
                   QUE TU COMPETENCIA TE SIGA
                   NO TE ALCANCE
                 </h4>
-                <h6>Desarrollamos una propuesta de valor unica y potente que destaca y
+                <h6 style={{fontFamily:'inherit', fontSize:'18px', color:'#d0cabc'}}>
+                  Desarrollamos una propuesta de valor unica y potente que destaca y
                   posiciona tu marca com olider indiscutible en el mercado.
                 </h6>
               </div>
@@ -303,10 +304,10 @@ export default function Component() {
             </div>
             <div className="grid-item item-4">
               <div className="text-box">
-                <h4>
+                <h4 style={{fontFamily:'Helvetica', fontSize:'30px', color:'#F9F6EF', fontWeight:'bold'}}>
                     CONVIERTE ATENCION EN LEALTAD
                   </h4>
-                  <h6>
+                  <h6 style={{fontFamily:'inherit', fontSize:'18px', color:'#d0cabc'}}>
                     Implementamos camañas que involucran activamente a los usuarios y
                      los motivan a participar, reforzando su vinculo con la marca
                   </h6>
@@ -314,39 +315,7 @@ export default function Component() {
             </div>
           </div>
         </div>
-        <div className="centered-container">
-          <div className="grid-container">
-            <div className="grid-item item-1">
-              <div className="text-box">
-                <h4>
-                  DEJA DE QUEMAR DINERO
-                </h4>
-                <h6>
-                  Nos centramos en las metricas que importan y eliminamos actividades
-                  que no contribuyen a tus objetivos de negocio, asegurando un uso optimo de tu presupuesto.
-                </h6>
-              </div>
-            </div>
-            <div className="grid-item item-2">
-              <img src={`${process.env.PUBLIC_URL}/assets/stock_images/nomad_3.png`} alt="Imagen 1" className="image"/>
-            </div>
-            <div className="grid-item item-3">
-              <img src={`${process.env.PUBLIC_URL}/assets/stock_images/nomad_4.png`} alt="Imagen 2" className="image"/>
-            </div>
-            <div className="grid-item item-4">
-              <div className="text-box">
-                <h4>
-                    UN PLAN QUE SE ADECUA A TUS METAS
-                  </h4>
-                  <h6>
-                    Nos centramos en las metricas que importan y eliminamos actividades que no 
-                    contribuyen a tus objetivos de negocio, asegurando un uso optimo 
-                    de tu presupuesto.
-                  </h6>
-              </div>
-            </div>
-          </div>
-        </div>
+       
     
       <style
         dangerouslySetInnerHTML={{
