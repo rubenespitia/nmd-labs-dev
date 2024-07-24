@@ -6,6 +6,7 @@ import Subscription from './components/Subscription';
 import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
+import Hero2Video from './components/Hero2Video';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
+      <Hero2Video />
       <Services />
       <Subscription />
       <Testimonials />

@@ -87,7 +87,7 @@ export default function Component() {
                     marginBottom: "0.5rem",
                   }}
                 >
-                  50+ happy founders
+                  SOCIAL PROOF
                 </div>
               </h3>{" "}
               <div
@@ -117,8 +117,7 @@ export default function Component() {
                     boxSizing: "border-box",
                   }}
                 >
-                   We love working with ambitious founders. Luckily, they like
-                  designing with us too!
+                  Nos encanta trabajar con fundadores ambiciosos. ¡Por suerte, a ellos también les gusta diseñar con nosotros!
                 </div>
               </div>
             </div>{" "}
@@ -271,10 +270,34 @@ export default function Component() {
                                 boxSizing: "border-box",
                               }}
                             >
-                              Tiffany, winner Oxford incubator
+                              “Trabajar con NOMADA es
+                                todo lo que prometen,
+                                números reales, clientes
+                                reales y resultados reales.
+                                Recomiendo ampliamente
+                                apostar por este equipo.”
                             </div>
                           </h3>
                         </div>{" "}
+                        <div
+                          style={{
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            width: '300px', // Define el tamaño del div contenedor
+                            height: '300px',
+
+                          }}
+                          >
+                          <img
+                          style={{
+                            width: "65%",
+                            height: "auto",
+                            display: "block"
+                          }}
+                          src={`${process.env.PUBLIC_URL}/assets/stock_images/usuario1.jpg`} alt="Perfil de usuario"
+                          />
+                        </div>
                         <div
                           className="whitespace-pre-wrap"
                           style={{
@@ -504,103 +527,7 @@ export default function Component() {
                         </div>{" "}
                       </div>{" "}
                     </div>{" "}
-                    <div
-                      className="order-first"
-                      style={{
-                        borderWidth: "0px",
-                        borderStyle: "solid",
-                        borderColor: "rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                        order: -9999,
-                      }}
-                    >
-                      <div
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgb(229, 231, 235)",
-                          boxSizing: "border-box",
-                        }}
-                      >
-                        <div
-                          className="relative w-full h-full flex items-center"
-                          style={{
-                            borderWidth: "0px",
-                            borderStyle: "solid",
-                            borderColor: "rgb(229, 231, 235)",
-                            boxSizing: "border-box",
-                            position: "relative",
-                            display: "flex",
-                            height: "100%",
-                            width: "100%",
-                            alignItems: "center",
-                          }}
-                        >
-                          {" "}
-                          <div
-                            className="h-[600px] hidden"
-                            style={{
-                              borderWidth: "0px",
-                              borderStyle: "solid",
-                              borderColor: "rgb(229, 231, 235)",
-                              boxSizing: "border-box",
-                              display: "none",
-                              height: "600px",
-                            }}
-                          />{" "}
-                          <div
-                            className="w-full relative"
-                            style={{
-                              borderWidth: "0px",
-                              borderStyle: "solid",
-                              borderColor: "rgb(229, 231, 235)",
-                              boxSizing: "border-box",
-                              position: "relative",
-                              width: "100%",
-                            }}
-                          >
-                            <div
-                              className="h-full w-full transition"
-                              style={{
-                                borderWidth: "0px",
-                                borderStyle: "solid",
-                                borderColor: "rgb(229, 231, 235)",
-                                boxSizing: "border-box",
-                                height: "100%",
-                                transitionProperty:
-                                  "color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter",
-                                transitionTimingFunction:
-                                  "cubic-bezier(0.4, 0, 0.2, 1)",
-                                transitionDuration: "0.15s",
-                                width: "100%",
-                              }}
-                            >
-                              <iframe
-                                className="w-full object-cover h-auto mx-auto rounded-t-lg lazyloaded"
-                                frameBorder="0"
-                                title="YouTube video player"
-                                style={{
-                                  borderWidth: "0px",
-                                  borderStyle: "solid",
-                                  borderColor: "rgb(229, 231, 235)",
-                                  boxSizing: "border-box",
-                                  display: "block",
-                                  verticalAlign: "middle",
-                                  marginLeft: "auto",
-                                  marginRight: "auto",
-                                  height: "auto",
-                                  width: "100%",
-                                  borderTopLeftRadius: "0.5rem",
-                                  borderTopRightRadius: "0.5rem",
-                                  objectFit: "cover",
-                                  aspectRatio: "536 / 300",
-                                }}
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>{" "}
+
                   </div>
                 </div>
               </div>
@@ -726,10 +653,39 @@ export default function Component() {
                                 boxSizing: "border-box",
                               }}
                             >
-                              Pitch deck competition
+                              "Contratar a este equipo ha sido una de las
+                                mejores decisiones estratégicas para
+                                nuestra empresa. De gastar recursos en
+                                campañas ineficaces, hemos pasado a
+                                liderar en nuestro sector gracias a sus
+                                estrategias de marketing digital. La
+                                metodología personalizada nos ha
+                                permitido no solo aumentar nuestras
+                                conversiones, sino también establecer una
+                                presencia sólida y destacada en el
+                                mercado. Altamente recomendados."
                             </div>
                           </h3>
                         </div>{" "}
+                        <div
+                          style={{
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            width: '300px', // Define el tamaño del div contenedor
+                            height: '300px',
+
+                          }}
+                          >
+                          <img
+                          style={{
+                            width: "65%",
+                            height: "auto",
+                            display: "block"
+                          }}
+                          src={`${process.env.PUBLIC_URL}/assets/stock_images/usuario2.jpg`} alt="Perfil de usuario"
+                          />
+                        </div>
                         <div
                           className="whitespace-pre-wrap"
                           style={{
@@ -858,103 +814,7 @@ export default function Component() {
                         </div>{" "}
                       </div>{" "}
                     </div>{" "}
-                    <div
-                      className="order-first"
-                      style={{
-                        borderWidth: "0px",
-                        borderStyle: "solid",
-                        borderColor: "rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                        order: -9999,
-                      }}
-                    >
-                      <div
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgb(229, 231, 235)",
-                          boxSizing: "border-box",
-                        }}
-                      >
-                        <div
-                          className="relative w-full h-full flex items-center"
-                          style={{
-                            borderWidth: "0px",
-                            borderStyle: "solid",
-                            borderColor: "rgb(229, 231, 235)",
-                            boxSizing: "border-box",
-                            position: "relative",
-                            display: "flex",
-                            height: "100%",
-                            width: "100%",
-                            alignItems: "center",
-                          }}
-                        >
-                          {" "}
-                          <div
-                            className="h-[600px] hidden"
-                            style={{
-                              borderWidth: "0px",
-                              borderStyle: "solid",
-                              borderColor: "rgb(229, 231, 235)",
-                              boxSizing: "border-box",
-                              display: "none",
-                              height: "600px",
-                            }}
-                          />{" "}
-                          <div
-                            className="w-full relative"
-                            style={{
-                              borderWidth: "0px",
-                              borderStyle: "solid",
-                              borderColor: "rgb(229, 231, 235)",
-                              boxSizing: "border-box",
-                              position: "relative",
-                              width: "100%",
-                            }}
-                          >
-                            <div
-                              className="h-full w-full transition"
-                              style={{
-                                borderWidth: "0px",
-                                borderStyle: "solid",
-                                borderColor: "rgb(229, 231, 235)",
-                                boxSizing: "border-box",
-                                height: "100%",
-                                transitionProperty:
-                                  "color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter",
-                                transitionTimingFunction:
-                                  "cubic-bezier(0.4, 0, 0.2, 1)",
-                                transitionDuration: "0.15s",
-                                width: "100%",
-                              }}
-                            >
-                              <iframe
-                                className="w-full object-cover h-auto mx-auto rounded-t-lg lazyloaded"
-                                frameBorder="0"
-                                title="YouTube video player"
-                                style={{
-                                  borderWidth: "0px",
-                                  borderStyle: "solid",
-                                  borderColor: "rgb(229, 231, 235)",
-                                  boxSizing: "border-box",
-                                  display: "block",
-                                  verticalAlign: "middle",
-                                  marginLeft: "auto",
-                                  marginRight: "auto",
-                                  height: "auto",
-                                  width: "100%",
-                                  borderTopLeftRadius: "0.5rem",
-                                  borderTopRightRadius: "0.5rem",
-                                  objectFit: "cover",
-                                  aspectRatio: "536 / 300",
-                                }}
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>{" "}
+
                   </div>
                 </div>
               </div>
@@ -1080,10 +940,39 @@ export default function Component() {
                                 boxSizing: "border-box",
                               }}
                             >
-                              Sarah, CEO Moodahub
+                              "Nuestra experiencia con este laboratorio
+                              de marketing ha superado todas las
+                              expectativas. No solo han optimizado
+                              nuestro presupuesto, sino que han
+                              desarrollado estrategias precisas que han
+                              impulsado nuestro crecimiento de manera
+                              significativa. 
+                              Su enfoque en crear
+                              contenido valioso y conectar con nuestra
+                              audiencia ha transformado la percepción
+                              de nuestra marca en el mercado.”
                             </div>
                           </h3>
                         </div>{" "}
+                        <div
+                          style={{
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            width: '300px', // Define el tamaño del div contenedor
+                            height: '300px',
+
+                          }}
+                          >
+                          <img
+                          style={{
+                            width: "65%",
+                            height: "auto",
+                            display: "block"
+                          }}
+                          src={`${process.env.PUBLIC_URL}/assets/stock_images/usuario3.jpg`} alt="Perfil de usuario"
+                          />
+                        </div>
                         <div
                           className="whitespace-pre-wrap"
                           style={{
@@ -1212,103 +1101,7 @@ export default function Component() {
                         </div>{" "}
                       </div>{" "}
                     </div>{" "}
-                    <div
-                      className="order-first"
-                      style={{
-                        borderWidth: "0px",
-                        borderStyle: "solid",
-                        borderColor: "rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                        order: -9999,
-                      }}
-                    >
-                      <div
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgb(229, 231, 235)",
-                          boxSizing: "border-box",
-                        }}
-                      >
-                        <div
-                          className="relative w-full h-full flex items-center"
-                          style={{
-                            borderWidth: "0px",
-                            borderStyle: "solid",
-                            borderColor: "rgb(229, 231, 235)",
-                            boxSizing: "border-box",
-                            position: "relative",
-                            display: "flex",
-                            height: "100%",
-                            width: "100%",
-                            alignItems: "center",
-                          }}
-                        >
-                          {" "}
-                          <div
-                            className="h-[600px] hidden"
-                            style={{
-                              borderWidth: "0px",
-                              borderStyle: "solid",
-                              borderColor: "rgb(229, 231, 235)",
-                              boxSizing: "border-box",
-                              display: "none",
-                              height: "600px",
-                            }}
-                          />{" "}
-                          <div
-                            className="w-full relative"
-                            style={{
-                              borderWidth: "0px",
-                              borderStyle: "solid",
-                              borderColor: "rgb(229, 231, 235)",
-                              boxSizing: "border-box",
-                              position: "relative",
-                              width: "100%",
-                            }}
-                          >
-                            <div
-                              className="h-full w-full transition"
-                              style={{
-                                borderWidth: "0px",
-                                borderStyle: "solid",
-                                borderColor: "rgb(229, 231, 235)",
-                                boxSizing: "border-box",
-                                height: "100%",
-                                transitionProperty:
-                                  "color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter",
-                                transitionTimingFunction:
-                                  "cubic-bezier(0.4, 0, 0.2, 1)",
-                                transitionDuration: "0.15s",
-                                width: "100%",
-                              }}
-                            >
-                              <iframe
-                                className="w-full object-cover h-auto mx-auto rounded-t-lg lazyloaded"
-                                frameBorder="0"
-                                title="YouTube video player"
-                                style={{
-                                  borderWidth: "0px",
-                                  borderStyle: "solid",
-                                  borderColor: "rgb(229, 231, 235)",
-                                  boxSizing: "border-box",
-                                  display: "block",
-                                  verticalAlign: "middle",
-                                  marginLeft: "auto",
-                                  marginRight: "auto",
-                                  height: "auto",
-                                  width: "100%",
-                                  borderTopLeftRadius: "0.5rem",
-                                  borderTopRightRadius: "0.5rem",
-                                  objectFit: "cover",
-                                  aspectRatio: "536 / 300",
-                                }}
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>{" "}
+
                   </div>
                 </div>
               </div>

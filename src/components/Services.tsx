@@ -294,7 +294,7 @@ export default function Component() {
                                   boxSizing: "border-box",
                                 }}
                               >
-                                Quick services
+                                Servicios Inmediatos
                               </div>
                             </h3>
                           </div>{" "}
@@ -324,7 +324,7 @@ export default function Component() {
                                 lineHeight: "2.5rem",
                               }}
                             >
-                              $379.00
+                              $150.00
                             </div>{" "}
                             <div
                               className="text-lg opacity-70"
@@ -338,7 +338,7 @@ export default function Component() {
                                 opacity: 0.7,
                               }}
                             >
-                              /one-time
+                              /por servicio realizado
                             </div>
                           </div>{" "}
                           <div
@@ -352,7 +352,7 @@ export default function Component() {
                               opacity: 0.7,
                             }}
                           >
-                            Choose any service for fix price — from $379
+                            Escoge cualquier servicio por $150
                           </div>{" "}
                           <div
                             className="mb-4 _section-description"
@@ -982,13 +982,13 @@ export default function Component() {
                                       borderColor: "rgb(229, 231, 235)",
                                       boxSizing: "border-box",
                                       margin: "0px",
-                                      fontFamily: "inherit",
+                                      fontFamily: "Helvetica",
                                       lineHeight: "inherit",
                                       textTransform: "none",
                                       appearance: "button",
                                       backgroundImage: "none",
                                       cursor: "pointer",
-                                      backgroundColor: "#2b65f9",
+                                      backgroundColor: "rgb(179, 8, 8)",
                                       transitionProperty:
                                         "color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter",
                                       transitionTimingFunction:
@@ -1144,7 +1144,7 @@ export default function Component() {
                                   boxSizing: "border-box",
                                 }}
                               >
-                                Weekly subscription
+                                Subscripcion semanal
                               </div>
                             </h3>
                           </div>{" "}
@@ -1174,7 +1174,7 @@ export default function Component() {
                                 lineHeight: "2.5rem",
                               }}
                             >
-                              $690.00
+                              $420.00
                             </div>{" "}
                             <div
                               className="text-lg opacity-70"
@@ -1188,7 +1188,7 @@ export default function Component() {
                                 opacity: 0.7,
                               }}
                             >
-                              /week
+                              /semanal
                             </div>
                           </div>{" "}
                           <div
@@ -1202,7 +1202,7 @@ export default function Component() {
                               opacity: 0.7,
                             }}
                           >
-                            Get a dedicated designer who works on your project
+                           Ten un diseñador dedicado en tu proyecto
                           </div>{" "}
                           <div
                             className="mb-4 _section-description"
@@ -1305,7 +1305,7 @@ export default function Component() {
                                   </div>
                                 </div>
                               </div>{" "}
-                              Up to 20 hours per week{" "}
+                              Hasta 20 Horas a la semana{" "}
                             </div>
                             <div
                               className="my-1 sm:my-2 flex items-start"
@@ -1395,7 +1395,7 @@ export default function Component() {
                                   </div>
                                 </div>
                               </div>{" "}
-                              Any request: mobile/web design, branding or
+                              Apartados en: mobile/web design, branding or
                               marketing{" "}
                             </div>
                             <div
@@ -1486,7 +1486,7 @@ export default function Component() {
                                   </div>
                                 </div>
                               </div>{" "}
-                              Daily communication{" "}
+                              Comunicacion Diaria{" "}
                             </div>
                             <div
                               className="my-1 sm:my-2 flex items-start"
@@ -1576,7 +1576,7 @@ export default function Component() {
                                   </div>
                                 </div>
                               </div>{" "}
-                              Unlimited number of change request{" "}
+                              Cambios a disposicion{" "}
                             </div>
                             <div
                               className="my-1 sm:my-2 flex items-start"
@@ -1666,7 +1666,7 @@ export default function Component() {
                                   </div>
                                 </div>
                               </div>{" "}
-                              Cancel anytime{" "}
+                              Cancela cuando quieras{" "}
                             </div>
                           </div>
                         </div>{" "}
@@ -1744,7 +1744,7 @@ export default function Component() {
                                       borderColor: "rgb(229, 231, 235)",
                                       boxSizing: "border-box",
                                       margin: "0px",
-                                      fontFamily: "inherit",
+                                      fontFamily: "Helvetica",
                                       lineHeight: "inherit",
                                       textTransform: "none",
                                       appearance: "button",

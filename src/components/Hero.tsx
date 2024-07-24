@@ -49,7 +49,8 @@ export default function Component() {
               width: "100%",
               alignItems: "center",
               marginRight: "2rem",
-              textAlign: "left",
+              marginLeft: "2rem",
+              textAlign: "center",
             }}
           >
             {" "}
@@ -74,9 +75,10 @@ export default function Component() {
                   borderStyle: "solid",
                   borderColor: "rgb(229, 231, 235)",
                   boxSizing: "border-box",
+                  fontFamily: "Helvetica"
                 }}
               >
-                Get design that will sell your product
+                No hacemos marketing
               </div>
             </h1>{" "}
             <h2
@@ -96,10 +98,13 @@ export default function Component() {
                 lineHeight: "1.75rem",
                 marginBottom: "40px",
                 fontFamily: "Poppins",
+                marginLeft: "35rem",
+                
               }}
             >
-              We do UI/UX, branding, product and marketing design with a simple
-              pricing: subscription or one-time fee
+              Olvidamos el marketing tradicional diseñando estrategias que dominan
+              el juego. No se trata solo de vender más, sino de impactar,
+              transformar y liderar tu industria.
             </h2>{" "}
             <div
               id="header-cta"
@@ -174,13 +179,13 @@ export default function Component() {
                           borderColor: "rgb(229, 231, 235)",
                           boxSizing: "border-box",
                           margin: "0px",
-                          fontFamily: "inherit",
+                          fontFamily: "Helvetica",
                           lineHeight: "inherit",
                           textTransform: "none",
                           appearance: "button",
                           backgroundImage: "none",
                           cursor: "pointer",
-                          backgroundColor: "#2b65f9",
+                          backgroundColor: "rgb(179, 8, 8)",
                           transitionProperty:
                             "color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter",
                           transitionTimingFunction:
@@ -198,10 +203,11 @@ export default function Component() {
                           borderRadius: "32px",
                           fontSize: "18px",
                           fontWeight: 500,
+                          marginLeft: "50rem",
                         }}
                       >
                         {" "}
-                        Book a call →
+                        Llamanos →
                       </button>
                     </a>{" "}
                   </div>
@@ -494,121 +500,15 @@ export default function Component() {
                   fontSize: "0.875rem",
                   lineHeight: "1.25rem",
                   opacity: 0.8,
+                  marginLeft: "43rem",
+                  fontFamily: "Helvetica"
                 }}
               >
-                Salt & Bold is a part of Startup Studio{" "}
-                <a
-                  href="https://paralect.com/"
-                  target="_blank"
-                  style={{
-                    borderWidth: "0px",
-                    borderStyle: "solid",
-                    borderColor: "rgb(229, 231, 235)",
-                    boxSizing: "border-box",
-                    textDecoration: "inherit",
-                    color: "inherit",
-                    cursor: "pointer",
-                  }}
-                >
-                  Paralect
-                </a>
+                NOMADA es un Startup Zacatecano 100% Mexicano{" "}
               </div>
             </div>
           </div>{" "}
-          <div
-            className="relative w-full mt-16 sm:mt-0 sm:ml-8 sm:max-w-[600px]"
-            style={{
-              borderWidth: "0px",
-              borderStyle: "solid",
-              borderColor: "rgb(229, 231, 235)",
-              boxSizing: "border-box",
-              position: "relative",
-              width: "100%",
-              marginLeft: "2rem",
-              marginTop: "0px",
-              maxWidth: "600px",
-            }}
-          >
-            <div
-              style={{
-                borderWidth: "0px",
-                borderStyle: "solid",
-                borderColor: "rgb(229, 231, 235)",
-                boxSizing: "border-box",
-              }}
-            >
-              <div
-                className="relative w-full h-full flex items-center"
-                style={{
-                  borderWidth: "0px",
-                  borderStyle: "solid",
-                  borderColor: "rgb(229, 231, 235)",
-                  boxSizing: "border-box",
-                  position: "relative",
-                  display: "flex",
-                  height: "100%",
-                  width: "100%",
-                  alignItems: "center",
-                }}
-              >
-                {" "}
-                <div
-                  className="h-[600px] hidden"
-                  style={{
-                    borderWidth: "0px",
-                    borderStyle: "solid",
-                    borderColor: "rgb(229, 231, 235)",
-                    boxSizing: "border-box",
-                    display: "none",
-                    height: "600px",
-                  }}
-                />{" "}
-                <div
-                  className="relative w-full flex justify-end"
-                  style={{
-                    borderWidth: "0px",
-                    borderStyle: "solid",
-                    borderColor: "rgb(229, 231, 235)",
-                    boxSizing: "border-box",
-                    position: "relative",
-                    display: "flex",
-                    width: "100%",
-                    justifyContent: "flex-end",
-                  }}
-                >
-                  <div
-                    className="h-full w-full transition"
-                    style={{
-                      borderWidth: "0px",
-                      borderStyle: "solid",
-                      borderColor: "rgb(229, 231, 235)",
-                      boxSizing: "border-box",
-                      height: "100%",
-                      transitionProperty:
-                        "color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter",
-                      transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
-                      transitionDuration: "0.15s",
-                      width: "100%",
-                    }}
-                  >
-                    <lottie-player
-                      className="w-full h-full rounded-xl object-cover"
-                      style={{
-                        borderWidth: "0px",
-                        borderStyle: "solid",
-                        borderColor: "rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                        height: "100%",
-                        width: "100%",
-                        borderRadius: "0.75rem",
-                        objectFit: "cover",
-                      }}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+
         </div>
       </div>
       <style

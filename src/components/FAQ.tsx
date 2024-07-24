@@ -101,7 +101,7 @@ export default function Component() {
                       marginBottom: "0.5rem",
                     }}
                   >
-                    Do you have questions?
+                    Tienes Preguntas?
                     <div
                       style={{
                         borderWidth: "0px",
@@ -110,7 +110,7 @@ export default function Component() {
                         boxSizing: "border-box",
                       }}
                     >
-                      Let us clarify!
+                      Permitenos aclararte!
                     </div>
                   </div>
                 </h3>{" "}
@@ -182,7 +182,7 @@ export default function Component() {
                         fontSize: "20px",
                       }}
                     >
-                      What is Salt & Bold?
+                      Que es NOMADA?
                     </div>{" "}
                     <div
                       className="cursor-pointer opacity-80 hover:opacity-100 transition"
@@ -272,7 +272,7 @@ export default function Component() {
                       color: "#f5f5f5",
                     }}
                   >
-                    Salt & bold is a design agency. We specialise in UI/UX
+                    NOMADA is a design agency. We specialise in UI/UX
                     product design and branding. You can access these services
                     through a one-time payment or choose a weekly subscription
                     model.{" "}
@@ -307,7 +307,7 @@ export default function Component() {
                         fontSize: "20px",
                       }}
                     >
-                      What services do you provide?
+                      Que hacemos?
                     </div>{" "}
                     <div
                       className="cursor-pointer opacity-80 hover:opacity-100 transition"
@@ -484,7 +484,7 @@ export default function Component() {
                         fontSize: "20px",
                       }}
                     >
-                      What tools do you use?
+                      Que herramientas usamos?
                     </div>{" "}
                     <div
                       className="cursor-pointer opacity-80 hover:opacity-100 transition"
@@ -656,8 +656,8 @@ export default function Component() {
                         fontSize: "20px",
                       }}
                     >
-                      Why to choose Salt & Bold instead of hiring product
-                      designer in-house?
+                      Porque escoger NOMADA en 
+                      vez de tener un equipo propio?
                     </div>{" "}
                     <div
                       className="cursor-pointer opacity-80 hover:opacity-100 transition"
@@ -935,7 +935,7 @@ export default function Component() {
                         fontSize: "20px",
                       }}
                     >
-                      I have a team. Can you work with them?
+                      Tengo ya un equipo, pueden trabajar en conjunto?
                     </div>{" "}
                     <div
                       className="cursor-pointer opacity-80 hover:opacity-100 transition"

@@ -109,7 +109,7 @@ export default function Component() {
                       marginBottom: "0.5rem",
                     }}
                   >
-                    Get design that will sell your product
+                    Obten el producto que venderá tu marca
                   </div>
                 </h3>{" "}
               </div>{" "}
@@ -193,13 +193,13 @@ export default function Component() {
                             borderColor: "rgb(229, 231, 235)",
                             boxSizing: "border-box",
                             margin: "0px",
-                            fontFamily: "inherit",
+                            fontFamily: "Helvetica",
                             lineHeight: "inherit",
                             textTransform: "none",
                             appearance: "button",
                             backgroundImage: "none",
                             cursor: "pointer",
-                            backgroundColor: "#2b65f9",
+                            backgroundColor: "rgb(179, 8, 8)",
                             transitionProperty:
                               "color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter",
                             transitionTimingFunction:
@@ -216,11 +216,11 @@ export default function Component() {
                             padding: "12px 20px",
                             borderRadius: "28px",
                             fontSize: "17px",
-                            fontWeight: 500,
+                            fontWeight: 500
                           }}
                         >
                           {" "}
-                          Book a call →
+                          Llamanos →
                         </button>
                       </a>{" "}
                       <a
@@ -247,7 +247,7 @@ export default function Component() {
                           fontSize: "18px",
                         }}
                       >
-                        or write a message
+                        o escribe un mensaje
                       </a>
                     </div>
                   </div>{" "}
@@ -269,7 +269,7 @@ export default function Component() {
             width: "100%",
             opacity: 0.15,
             background:
-              "linear-gradient(to right, rgba(0, 0, 0, 0), rgb(43, 101, 249), rgba(0, 0, 0, 0))",
+              "linear-gradient(to right, rgba(0, 0, 0, 0), rgb(179, 8, 8), rgba(0, 0, 0, 0))",
           }}
         />{" "}
         <div
@@ -354,7 +354,7 @@ export default function Component() {
                   >
                     <img
                       alt="icon"
-                      src="https://ship-app-assets.fra1.digitaloceanspaces.com/stream/rec4sLfwGXzHxLy54/1700575513763-image.png"
+                      src={`${process.env.PUBLIC_URL}/assets/stock_images/nomad_logo.jpg`}
                       style={{
                         borderWidth: "0px",
                         borderStyle: "solid",
@@ -379,7 +379,7 @@ export default function Component() {
                     fontWeight: 500,
                   }}
                 >
-                  Salt & Bold
+                  NOMADA
                 </span>
               </div>{" "}
               <div
@@ -393,7 +393,7 @@ export default function Component() {
                   opacity: 0.7,
                 }}
               >
-                Get design that will sell your product
+                Obten el producto que venderá tu marca
               </div>
             </div>{" "}
             <div
@@ -431,7 +431,7 @@ export default function Component() {
                     marginBottom: "1rem",
                   }}
                 >
-                  About
+                  Sobre
                 </div>{" "}
                 <a
                   className="block py-1 sm:py-2 opacity-70 hover:opacity-100"
@@ -587,7 +587,7 @@ export default function Component() {
                     marginBottom: "1rem",
                   }}
                 >
-                  Services
+                  Servicios
                 </div>{" "}
                 <a
                   className="block py-1 sm:py-2 opacity-70 hover:opacity-100"
@@ -762,7 +762,7 @@ export default function Component() {
                     marginBottom: "1rem",
                   }}
                 >
-                  Free resources
+                  Recursos
                 </div>{" "}
                 <a
                   className="block py-1 sm:py-2 opacity-70 hover:opacity-100"

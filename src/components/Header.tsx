@@ -7,6 +7,7 @@ export default function Component() {
         className="fixed w-full _header backdrop-blur-lg _border-b-theme svelte-1j0bvgh"
         style={{
           borderWidth: "0px",
+          background: "rgb(21, 21, 21)", 
           borderStyle: "solid",
           borderColor: "rgb(229, 231, 235)",
           boxSizing: "border-box",
@@ -97,7 +98,7 @@ export default function Component() {
                   <img
                     className="rounded"
                     alt="Logo"
-                    src=""
+                    src={`${process.env.PUBLIC_URL}/assets/stock_images/nomad_logo.jpg`}
                     style={{
                       borderWidth: "0px",
                       borderStyle: "solid",
@@ -132,7 +133,7 @@ export default function Component() {
             <div
               className="hidden ml-8 sm:flex items-center justify-end text-sm py-1 gap-4 w-full mr-8"
               style={{
-                borderWidth: "0px",
+                borderWidth: "0px",/* Fondo opcional para mejor visualización */
                 borderStyle: "solid",
                 borderColor: "rgb(229, 231, 235)",
                 boxSizing: "border-box",
@@ -528,43 +529,7 @@ export default function Component() {
                       boxSizing: "border-box",
                     }}
                   >
-                    <svg
-                      className="feather feather-chevron-down ml-1 group-hover:rotate-180 origin-center transition svelte-17vecal"
-                      height="15"
-                      width="15"
-                      fill="none"
-                      stroke="#f6f5f4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                      style={{
-                        borderWidth: "0px",
-                        borderStyle: "solid",
-                        borderColor: "rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                        display: "block",
-                        verticalAlign: "middle",
-                        marginLeft: "0.25rem",
-                        transformOrigin: "center center",
-                        transitionProperty:
-                          "color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter",
-                        transitionTimingFunction:
-                          "cubic-bezier(0.4, 0, 0.2, 1)",
-                        transitionDuration: "0.15s",
-                      }}
-                    >
-                      <polyline
-                        points="6 9 12 15 18 9"
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgb(229, 231, 235)",
-                          boxSizing: "border-box",
-                        }}
-                      />
-                    </svg>{" "}
+
                     <i
                       style={{
                         borderWidth: "0px",
@@ -844,7 +809,7 @@ export default function Component() {
                           borderRadius: "24px",
                           padding: "8px 12px",
                           cursor: "pointer",
-                          backgroundColor: "#2b65f9",
+                          backgroundColor: "rgb(179, 8, 8)",
                           transitionProperty:
                             "color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter",
                           transitionTimingFunction:
