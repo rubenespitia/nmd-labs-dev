@@ -1,4 +1,9 @@
 import React from "react";
+import '../styles/AnimationsComponents.css';
+import FadeInComponent from "./piezas/headers/FadeInComponent";
+import HoverTapComponent from "./piezas/headers/HoverTapComponent";
+import AnimatedComponent from "./piezas/headers/AnimatedComponent";
+
 
 export default function Component() {
   return (
@@ -69,7 +74,7 @@ export default function Component() {
                 marginBottom: "32px",
               }}
             >
-              <div
+              <div className="fade-in"
                 style={{
                   borderWidth: "0px",
                   borderStyle: "solid",
@@ -78,34 +83,42 @@ export default function Component() {
                   fontFamily: "Helvetica"
                 }}
               >
+
+                <FadeInComponent>
                 No hacemos marketing
+                </FadeInComponent>
               </div>
             </h1>{" "}
-            <h2
-              className="_subtitle sm:text-xl whitespace-pre-wrap max-w-[650px] svelte-iy6bba"
-              style={{
-                borderWidth: "0px",
-                borderStyle: "solid",
-                borderColor: "rgb(229, 231, 235)",
-                boxSizing: "border-box",
-                fontWeight: "inherit",
-                margin: "0px",
-                maxWidth: "650px",
-                whiteSpace: "pre-wrap",
-                color: "#f5f5f5",
-                opacity: 0.7,
-                fontSize: "1.25rem",
-                lineHeight: "1.75rem",
-                marginBottom: "40px",
-                fontFamily: "Poppins",
-                marginLeft: "35rem",
-                
-              }}
-            >
-              Olvidamos el marketing tradicional diseñando estrategias que dominan
-              el juego. No se trata solo de vender más, sino de impactar,
-              transformar y liderar tu industria.
-            </h2>{" "}
+            <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center", // Centra horizontalmente
+                  alignItems: "center", // Centra verticalmente
+                  textAlign: "center", // Opcional: centra el texto dentro del h2
+                }}
+              >
+                <h2
+                  className="_subtitle sm:text-xl whitespace-pre-wrap max-w-[650px] svelte-iy6bba fade-in"
+                  style={{
+                    borderWidth: "0px",
+                    borderStyle: "solid",
+                    borderColor: "rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    fontWeight: "inherit",
+                    margin: "0px",
+                    whiteSpace: "pre-wrap",
+                    color: "#f5f5f5",
+                    opacity: 0.7,
+                    fontFamily: "Poppins",
+                  }}
+                >
+                  <FadeInComponent>
+                    Olvidamos el marketing tradicional diseñando estrategias que dominan
+                    el juego. No se trata solo de vender más, sino de impactar,
+                    transformar y liderar tu industria.
+                  </FadeInComponent>
+                </h2>
+              </div>
             <div
               id="header-cta"
               className="w-full"
@@ -127,7 +140,7 @@ export default function Component() {
                 }}
               >
                 <div
-                  className="flex flex-wrap justify-center sm:[justify-content:normal] svelte-1ko2zfs"
+                  className="flex flex-wrap justify-center sm:justify-normal svelte-1ko2zfs"
                   style={{
                     borderWidth: "0px",
                     borderStyle: "solid",
@@ -139,38 +152,15 @@ export default function Component() {
                   }}
                 >
                   <div
-                    className="flex flex-row flex-wrap justify-center gap-4 sm:gap-6 items-center sm:w-auto"
                     style={{
-                      borderWidth: "0px",
-                      borderStyle: "solid",
-                      borderColor: "rgb(229, 231, 235)",
-                      boxSizing: "border-box",
                       display: "flex",
-                      flexDirection: "row",
-                      flexWrap: "wrap",
-                      alignItems: "center",
                       justifyContent: "center",
-                      width: "auto",
-                      gap: "1.5rem",
+                      alignItems: "center",
+                      width: "100%",
                     }}
                   >
-                    <a
-                      className="shrink-0 cursor-pointer sm:w-auto _ishuge svelte-1ko2zfs"
-                      href="https://cal.com/team/salt-and-bold/intro-call"
-                      target="_blank"
-                      style={{
-                        borderWidth: "0px",
-                        borderStyle: "solid",
-                        borderColor: "rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                        textDecoration: "inherit",
-                        color: "inherit",
-                        flexShrink: 0,
-                        width: "auto",
-                        cursor: "pointer",
-                        fontSize: "20px",
-                      }}
-                    >
+                    <FadeInComponent>
+                    <HoverTapComponent>
                       <button
                         className="relative overflow-hidden shadow hover:shadow-md flex justify-center items-center svelte-1ko2zfs"
                         style={{
@@ -186,32 +176,27 @@ export default function Component() {
                           backgroundImage: "none",
                           cursor: "pointer",
                           backgroundColor: "rgb(179, 8, 8)",
-                          transitionProperty:
-                            "color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter",
-                          transitionTimingFunction:
-                            "cubic-bezier(0.4, 0, 0.2, 1)",
-                          transitionDuration: "0.15s",
+                          transition: "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1), transform 0.15s cubic-bezier(0.4, 0, 0.2, 1), filter 0.15s cubic-bezier(0.4, 0, 0.2, 1), backdrop-filter 0.15s cubic-bezier(0.4, 0, 0.2, 1), -webkit-backdrop-filter 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
                           position: "relative",
                           display: "flex",
                           alignItems: "center",
                           justifyContent: "center",
                           overflow: "hidden",
-                          boxShadow:
-                            "var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1)",
+                          boxShadow: "var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1)",
                           color: "var(--button-color, #ffffff)",
                           padding: "12px 24px",
                           borderRadius: "32px",
                           fontSize: "18px",
                           fontWeight: 500,
-                          marginLeft: "50rem",
                         }}
                       >
-                        {" "}
                         Llamanos →
                       </button>
-                    </a>{" "}
+                    </HoverTapComponent>
+                    </FadeInComponent>
                   </div>
-                </div>{" "}
+                </div>
+
                 <div
                   className="text-sm opacity-80 mt-4 max-w-[400px]"
                   style={{
@@ -237,6 +222,9 @@ export default function Component() {
                 </div>{" "}
               </div>
             </div>{" "}
+            <FadeInComponent>
+            <HoverTapComponent>
+            <AnimatedComponent/>
             <div
               className="py-4 mt-8 sm:mt-16"
               style={{
@@ -488,28 +476,74 @@ export default function Component() {
                   }}
                 />
               </div>{" "}
-              <div
-                className="text-sm mt-2 opacity-80 max-w-[400px]"
-                style={{
-                  borderWidth: "0px",
-                  borderStyle: "solid",
-                  borderColor: "rgb(229, 231, 235)",
-                  boxSizing: "border-box",
-                  marginTop: "0.5rem",
-                  maxWidth: "400px",
-                  fontSize: "0.875rem",
-                  lineHeight: "1.25rem",
-                  opacity: 0.8,
-                  marginLeft: "50rem",
-                  fontFamily: "Helvetica"
-                }}
-              >
-                NOMADA es un Startup Zacatecano 100% Mexicano{" "}
-              </div>
+
+            <div
+              className="text-sm mt-2 opacity-80 max-w-[400px]"
+              style={{
+                borderWidth: "0px",
+                borderStyle: "solid",
+                borderColor: "rgb(229, 231, 235)",
+                boxSizing: "border-box",
+                marginTop: "0.5rem",
+                fontSize: "0.875rem",
+                lineHeight: "1.25rem",
+                opacity: 0.8,
+                fontFamily: "Helvetica",
+                textAlign: "center", // Alinea el texto a la derecha
+              }}
+            >
+              NOMADA es un Startup Zacatecano 100% Mexicano
             </div>
+  
+            </div>
+          </HoverTapComponent>
+          </FadeInComponent>
           </div>{" "}
 
         </div>
+
+
+
+        <div
+    className="p-4 xl:p-0 flex h-full w-full flex-col justify-center items-center svelte-iy6bba"
+    style={{
+      borderWidth: "0px",
+      borderStyle: "solid",
+      borderColor: "rgb(229, 231, 235)",
+      boxSizing: "border-box",
+      display: "flex",
+      height: "100%",
+      width: "100%",
+      alignItems: "left",
+      justifyContent: "left", // Centra el contenido horizontalmente
+      flexDirection: "row",
+      padding: "0px",
+    }}
+  >
+    <div
+      style={{
+        display: "flex",
+        alignItems: "left",
+        justifyContent: "center",
+        width: "80%", // Ajusta el tamaño del contenedor del GIF si es necesario
+        maxWidth: "600px", // Ajusta el tamaño máximo del contenedor del GIF si es necesario
+      }}
+    >
+              <FadeInComponent>
+              <HoverTapComponent>
+      <img
+        src="/assets/stock_images/hero_gif.gif"
+        alt="My GIF"
+        style={{
+          width: "145%", // Ajusta el tamaño del GIF
+          height: "auto", // Mantiene la proporción del GIF
+        }}
+      />
+        </HoverTapComponent>
+        </FadeInComponent>
+    </div>
+  </div>
+
       </div>
       <style
         dangerouslySetInnerHTML={{

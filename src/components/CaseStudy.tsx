@@ -1,4 +1,7 @@
 import React from "react";
+import BounceComponent from "./piezas/headers/BounceComponent";
+import ScaleUpComponent from "./piezas/headers/ScaleUpComponent";
+import HoverTapComponent from "./piezas/headers/HoverTapComponent";
 
 export default function Component() {
   return (
@@ -57,6 +60,7 @@ export default function Component() {
                   maxWidth: "32rem",
                 }}
               >
+                <ScaleUpComponent>
                 <div
                   className="margin-bottom medium-s"
                   style={{
@@ -83,6 +87,7 @@ export default function Component() {
                     Deja de quemar dinero
                   </h2>
                 </div>
+                
                 <p
                   className="margin-bottom margin-xlarge"
                   style={{
@@ -101,6 +106,7 @@ export default function Component() {
                 >
                   Nos centramos en las metricas que importan
                 </p>
+                </ScaleUpComponent>
               </div>
               <div
                 className="case_study-slider"
@@ -116,6 +122,7 @@ export default function Component() {
                   className="no-grow w-dyn-list"
                   style={{ boxSizing: "border-box", flex: "0 0 auto" }}
                 >
+
                   <div
                     className="case_study-slide w-dyn-items"
                     role="list"
@@ -127,6 +134,8 @@ export default function Component() {
                         "180s linear 0s infinite normal none running scroll",
                     }}
                   >
+                  <BounceComponent>
+                  <HoverTapComponent>
                     <div
                       className="no-grow w-dyn-item"
                       role="listitem"
@@ -155,6 +164,7 @@ export default function Component() {
                             'url("https://cdn.prod.website-files.com/65f43207d485843526415f97/65f43207d485843526416e73_Hero%20(1).jpg")',
                         }}
                       >
+
                         <div
                           className="case_study_thumbnail_hover"
                           style={{
@@ -186,8 +196,14 @@ export default function Component() {
                             Strivacity
                           </h3>
                         </div>
+
+                        
                       </a>
                     </div>
+                    </HoverTapComponent>
+                    </BounceComponent>
+                    <BounceComponent>
+                    <HoverTapComponent>
                     <div
                       className="no-grow w-dyn-item"
                       role="listitem"
@@ -249,6 +265,10 @@ export default function Component() {
                         </div>
                       </a>
                     </div>
+                    </HoverTapComponent>
+                    </BounceComponent>
+                    <BounceComponent>
+                    <HoverTapComponent>
                     <div
                       className="no-grow w-dyn-item"
                       role="listitem"
@@ -310,6 +330,10 @@ export default function Component() {
                         </div>
                       </a>
                     </div>
+                    </HoverTapComponent>
+                    </BounceComponent>
+                    <BounceComponent>
+                    <HoverTapComponent>
                     <div
                       className="no-grow w-dyn-item"
                       role="listitem"
@@ -371,6 +395,10 @@ export default function Component() {
                         </div>
                       </a>
                     </div>
+                    </HoverTapComponent>
+                    </BounceComponent>
+                    <BounceComponent>
+                    <HoverTapComponent>
                     <div
                       className="no-grow w-dyn-item"
                       role="listitem"
@@ -432,6 +460,8 @@ export default function Component() {
                         </div>
                       </a>
                     </div>
+                    </HoverTapComponent>
+                    </BounceComponent>
                     <div
                       className="no-grow w-dyn-item"
                       role="listitem"

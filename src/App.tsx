@@ -10,6 +10,7 @@ import Hero2Video from './components/Hero2Video';
 import CaseStudy from './components/CaseStudy';
 import CarouselProducts from './components/CarouselProducts';
 import './App.css';
+import { motion } from "framer-motion";
 
 function App() {
   return (

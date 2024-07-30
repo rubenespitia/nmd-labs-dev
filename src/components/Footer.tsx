@@ -1,4 +1,6 @@
 import React from "react";
+import FadeInComponent from "./piezas/headers/FadeInComponent";
+import HoverTapComponent from "./piezas/headers/HoverTapComponent";
 
 export default function Component() {
   return (
@@ -109,7 +111,9 @@ export default function Component() {
                       marginBottom: "0.5rem",
                     }}
                   >
+                    <FadeInComponent>
                     Obten el producto que venderá tu marca
+                    </FadeInComponent>
                   </div>
                 </h3>{" "}
               </div>{" "}
@@ -168,23 +172,8 @@ export default function Component() {
                         gap: "1.5rem",
                       }}
                     >
-                      <a
-                        className="shrink-0 cursor-pointer sm:w-auto _islarge svelte-1ko2zfs"
-                        href="https://cal.com/team/salt-and-bold/intro-call"
-                        target="_blank"
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgb(229, 231, 235)",
-                          boxSizing: "border-box",
-                          textDecoration: "inherit",
-                          color: "inherit",
-                          flexShrink: 0,
-                          width: "auto",
-                          cursor: "pointer",
-                          fontSize: "18px",
-                        }}
-                      >
+                      <FadeInComponent>
+                      <HoverTapComponent> 
                         <button
                           className="relative overflow-hidden shadow hover:shadow-md flex justify-center items-center svelte-1ko2zfs"
                           style={{
@@ -222,34 +211,11 @@ export default function Component() {
                           {" "}
                           Llamanos →
                         </button>
-                      </a>{" "}
-                      <a
-                        className="shrink-0 sm:w-auto cursor-pointer _link _islarge svelte-1ko2zfs"
-                        href="https://www.linkedin.com/in/grechits/"
-                        target="_blank"
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgb(229, 231, 235)",
-                          boxSizing: "border-box",
-                          textDecoration: "inherit",
-                          flexShrink: 0,
-                          textDecorationLine: "underline",
-                          textUnderlineOffset: "4px",
-                          transitionProperty:
-                            "color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter",
-                          transitionTimingFunction:
-                            "cubic-bezier(0.4, 0, 0.2, 1)",
-                          transitionDuration: "0.15s",
-                          color: "#F9F6EF",
-                          width: "auto",
-                          cursor: "pointer",
-                          fontSize: "18px",
-                          fontFamily:"Helvetica"
-                        }}
-                      >
+                        </HoverTapComponent>
+                        </FadeInComponent>
+                        <FadeInComponent>
                         o escribe un mensaje
-                      </a>
+                        </FadeInComponent>
                     </div>
                   </div>{" "}
                 </div>
