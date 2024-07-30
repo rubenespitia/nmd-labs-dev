@@ -1,0 +1,31 @@
+/* src/styles/App.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    height: 200vh; /* Para asegurar que haya espacio para el scroll */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .placeholder {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+  }
+  
+  .box {
+    background: lightblue;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  

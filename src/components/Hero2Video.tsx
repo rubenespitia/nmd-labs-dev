@@ -1,6 +1,8 @@
 import React from "react";
 import ReactPlayer from 'react-player/youtube';
 import '../styles/GridComponent.css';
+import FadeInComponent from "./piezas/headers/FadeInComponent";
+import ScaleUpComponent from "./piezas/headers/ScaleUpComponent";
 
 export default function Component() {
   return (
@@ -55,7 +57,8 @@ export default function Component() {
               textAlign: "left",
             }}
           >
-          <div className="player-wrapper" style={{ position: 'relative', paddingTop: '56.25%' /* Aspect ratio 16:9 */ }}>
+            <FadeInComponent>
+              <div className="player-wrapper" style={{ position: 'relative', paddingTop: '56.25%' /* Aspect ratio 16:9 */ }}>
                 <ReactPlayer
                   url="https://www.youtube.com/watch?v=ssfkASaR2Ww"
                   className="react-player"
@@ -66,6 +69,7 @@ export default function Component() {
                   style={{ position: 'absolute', top: 0, left: 0 }}
                 />
               </div>
+            </FadeInComponent>
           </div>
           <div
             className="w-full text-center sm:text-left items-center sm:mr-8 svelte-iy6bba"
@@ -105,7 +109,10 @@ export default function Component() {
                   fontFamily: "Helvetica"
                 }}
               >
-                Consecuencias en Soluciones
+                <ScaleUpComponent>
+                Consecuencias en Solucionesa   
+                </ScaleUpComponent>
+
               </div>
             </h1>{" "}
             <h2
@@ -127,11 +134,13 @@ export default function Component() {
                 fontFamily: "Helvetica",
               }}
             >
+            <FadeInComponent>
             <p>Utilizamos AC Compacta para los títulos y encabezados, proyectando fuerza y modernidad, mientras que Helvetica en los textos refleja claridad y profesionalismo. Esta combinación de tipografías simboliza nuestra dedicación a la excelencia y a la simplicidad efectiva.</p>
           
             <p>Utilizamos AC Compacta para los títulos y encabezados, proyectando fuerza y modernidad, mientras que Helvetica en los textos refleja claridad y profesionalismo. Esta combinación de tipografías simboliza nuestra dedicación a la excelencia y a la simplicidad efectiva.</p>
 
             <p>Utilizamos AC Compacta para los títulos y encabezados, proyectando fuerza y modernidad, mientras que Helvetica en los textos refleja claridad y profesionalismo. Esta combinación de tipografías simboliza nuestra dedicación a la excelencia y a la simplicidad efectiva.</p>
+            </FadeInComponent>
             </h2>{" "}
             <div
               id="header-cta"
@@ -153,91 +162,6 @@ export default function Component() {
                   boxSizing: "border-box",
                 }}
               >
-                <div
-                  className="flex flex-wrap justify-center sm:[justify-content:normal] svelte-1ko2zfs"
-                  style={{
-                    borderWidth: "0px",
-                    borderStyle: "solid",
-                    borderColor: "rgb(229, 231, 235)",
-                    boxSizing: "border-box",
-                    display: "flex",
-                    flexWrap: "wrap",
-                    justifyContent: "normal",
-                  }}
-                >
-                  <div
-                    className="flex flex-row flex-wrap justify-center gap-4 sm:gap-6 items-center sm:w-auto"
-                    style={{
-                      borderWidth: "0px",
-                      borderStyle: "solid",
-                      borderColor: "rgb(229, 231, 235)",
-                      boxSizing: "border-box",
-                      display: "flex",
-                      flexDirection: "row",
-                      flexWrap: "wrap",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      width: "auto",
-                      gap: "1.5rem",
-                    }}
-                  >
-                    <a
-                      className="shrink-0 cursor-pointer sm:w-auto _ishuge svelte-1ko2zfs"
-                      href="https://cal.com/team/salt-and-bold/intro-call"
-                      target="_blank"
-                      style={{
-                        borderWidth: "0px",
-                        borderStyle: "solid",
-                        borderColor: "rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                        textDecoration: "inherit",
-                        color: "inherit",
-                        flexShrink: 0,
-                        width: "auto",
-                        cursor: "pointer",
-                        fontSize: "20px",
-                      }}
-                    >
-                      <button
-                        className="relative overflow-hidden shadow hover:shadow-md flex justify-center items-center svelte-1ko2zfs"
-                        style={{
-                          borderWidth: "0px",
-                          borderStyle: "solid",
-                          borderColor: "rgb(229, 231, 235)",
-                          boxSizing: "border-box",
-                          margin: "0px",
-                          fontFamily: "Helvetica",
-                          lineHeight: "inherit",
-                          textTransform: "none",
-                          appearance: "button",
-                          backgroundImage: "none",
-                          cursor: "pointer",
-                          backgroundColor: "rgb(179, 8, 8)",
-                          transitionProperty:
-                            "color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter",
-                          transitionTimingFunction:
-                            "cubic-bezier(0.4, 0, 0.2, 1)",
-                          transitionDuration: "0.15s",
-                          position: "relative",
-                          display: "flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                          overflow: "hidden",
-                          boxShadow:
-                            "var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1)",
-                          color: "var(--button-color, #ffffff)",
-                          padding: "12px 24px",
-                          borderRadius: "32px",
-                          fontSize: "18px",
-                          fontWeight: 500,
-                        }}
-                      >
-                        {" "}
-                        Llamanos
-                      </button>
-                    </a>{" "}
-                  </div>
-                </div>{" "}
                 <div
                   className="text-sm opacity-80 mt-4 max-w-[400px]"
                   style={{
@@ -282,20 +206,27 @@ export default function Component() {
           </div>{" "}
         </div>
       </div>
+      <FadeInComponent>
         <div className="centered-container">
           <div className="grid-container" style={{borderWidth:'0px'}}>
+
             <div className="grid-item item-1" style={{display:"flex"}}>
               <div className="text-box" style={{borderWidth:'0px'}}>
                 <h4 style={{fontFamily:'Helvetica', fontSize:'30px', color:'#F9F6EF', fontWeight:'bold'}}>
+                <ScaleUpComponent>
                   QUE TU COMPETENCIA TE SIGA
                   NO TE ALCANCE
+                  </ScaleUpComponent>
                 </h4>
                 <h6 style={{fontFamily:'inherit', fontSize:'18px', color:'#d0cabc'}}>
+                <ScaleUpComponent>
                   Desarrollamos una propuesta de valor unica y potente que destaca y
                   posiciona tu marca com olider indiscutible en el mercado.
+                  </ScaleUpComponent>
                 </h6>
               </div>
             </div>
+
             <div className="grid-item item-2">
               <img src={`${process.env.PUBLIC_URL}/assets/stock_images/nomad_1.png`} alt="Imagen 1" className="image"/>
             </div>
@@ -305,16 +236,21 @@ export default function Component() {
             <div className="grid-item item-4">
               <div className="text-box">
                 <h4 style={{fontFamily:'Helvetica', fontSize:'30px', color:'#F9F6EF', fontWeight:'bold'}}>
+                    <ScaleUpComponent>
                     CONVIERTE ATENCION EN LEALTAD
+                    </ScaleUpComponent>
                   </h4>
                   <h6 style={{fontFamily:'inherit', fontSize:'18px', color:'#d0cabc'}}>
+                    <ScaleUpComponent>
                     Implementamos camañas que involucran activamente a los usuarios y
                      los motivan a participar, reforzando su vinculo con la marca
+                     </ScaleUpComponent>
                   </h6>
               </div>
             </div>
           </div>
         </div>
+        </FadeInComponent>
        
     
       <style

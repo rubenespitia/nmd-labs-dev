@@ -1,0 +1,95 @@
+/* styles.css */
+.my-component {
+    transition: all 0.3s ease;
+  }
+  
+  .my-component:hover {
+    transform: scale(1.1);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .my-fade-in-component {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+
+  /* styles.css */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+
+  .fade-in.visible {
+    opacity: 1; /* Se mostrará cuando sea visible */
+  }
+
+  /* styles.css */
+.change-color {
+    color: black;
+    transition: color 0.5s ease-in-out;
+  }
+  
+  .change-color:hover {
+    color: hsl(0, 100%, 50%);
+  }
+  
+  /* styles.css */
+.scale-up {
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .scale-up:hover {
+    transform: scale(1.2);
+  }
+
+  /* styles.css */
+.move-right {
+    position: relative;
+    left: 0;
+    transition: left 0.5s ease-in-out;
+  }
+  
+  .move-right:hover {
+    left: 50px;
+  }
+
+  /* styles.css */
+.resize {
+    width: 100px;
+    height: 100px;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+  }
+  
+  .resize:hover {
+    width: 150px;
+    height: 150px;
+  }
+  
+  /* styles.css */
+.change-background {
+    background-color: blue;
+    transition: background-color 0.5s ease-in-out;
+  }
+  
+  .change-background:hover {
+    background-color: green;
+  }
+  
+  
