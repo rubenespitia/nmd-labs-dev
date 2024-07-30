@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/nmd-labs-dev/static/css/main.061235a0.css",
-    "main.js": "/nmd-labs-dev/static/js/main.9a6ecaf2.js",
+    "main.js": "/nmd-labs-dev/static/js/main.7c5de91e.js",
     "reactPlayerPreview.js": "/nmd-labs-dev/static/js/reactPlayerPreview.b4723bbf.chunk.js",
     "static/js/453.1ab201fe.chunk.js": "/nmd-labs-dev/static/js/453.1ab201fe.chunk.js",
     "static/media/test6_back.jpg": "/nmd-labs-dev/static/media/test6_back.a46e23c80c804b45153f.jpg",
     "index.html": "/nmd-labs-dev/index.html",
     "main.061235a0.css.map": "/nmd-labs-dev/static/css/main.061235a0.css.map",
-    "main.9a6ecaf2.js.map": "/nmd-labs-dev/static/js/main.9a6ecaf2.js.map",
+    "main.7c5de91e.js.map": "/nmd-labs-dev/static/js/main.7c5de91e.js.map",
     "reactPlayerPreview.b4723bbf.chunk.js.map": "/nmd-labs-dev/static/js/reactPlayerPreview.b4723bbf.chunk.js.map",
     "453.1ab201fe.chunk.js.map": "/nmd-labs-dev/static/js/453.1ab201fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.061235a0.css",
-    "static/js/main.9a6ecaf2.js"
+    "static/js/main.7c5de91e.js"
   ]
 }
