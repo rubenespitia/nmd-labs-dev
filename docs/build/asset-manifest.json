@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/rubenespitia/nmd-labs-dev.git/static/css/main.a48debf3.css",
+    "main.js": "/rubenespitia/nmd-labs-dev.git/static/js/main.a1f0d2ba.js",
+    "reactPlayerPreview.js": "/rubenespitia/nmd-labs-dev.git/static/js/reactPlayerPreview.d1591090.chunk.js",
+    "static/js/453.44f414de.chunk.js": "/rubenespitia/nmd-labs-dev.git/static/js/453.44f414de.chunk.js",
+    "static/media/test6_back.jpg": "/rubenespitia/nmd-labs-dev.git/static/media/test6_back.a46e23c80c804b45153f.jpg",
+    "index.html": "/rubenespitia/nmd-labs-dev.git/index.html",
+    "main.a48debf3.css.map": "/rubenespitia/nmd-labs-dev.git/static/css/main.a48debf3.css.map",
+    "main.a1f0d2ba.js.map": "/rubenespitia/nmd-labs-dev.git/static/js/main.a1f0d2ba.js.map",
+    "reactPlayerPreview.d1591090.chunk.js.map": "/rubenespitia/nmd-labs-dev.git/static/js/reactPlayerPreview.d1591090.chunk.js.map",
+    "453.44f414de.chunk.js.map": "/rubenespitia/nmd-labs-dev.git/static/js/453.44f414de.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a48debf3.css",
+    "static/js/main.a1f0d2ba.js"
+  ]
+}
