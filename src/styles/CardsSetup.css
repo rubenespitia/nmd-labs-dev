@@ -1,0 +1,31 @@
+/* src/styles/CardsSetup.css */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    perspective: 1000px;
+    max-width: 80vw; /* Limita el ancho del contenedor */
+    max-height: 80vh; /* Limita el alto del contenedor */
+  }
+  
+  .splash {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .card {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0px 10px 20px #3336f1de;
+  }
+  

@@ -1,4 +1,6 @@
 import React from "react";
+import FadeInComponent from "./piezas/headers/FadeInComponent";
+import HoverTapComponent from "./piezas/headers/HoverTapComponent";
 
 export default function Component() {
   return (
@@ -127,6 +129,7 @@ export default function Component() {
                 </div>
               </div>{" "}
             </div>{" "}
+            <FadeInComponent>
             <div
               className="w-full _container-width mx-auto overflow-x-auto"
               style={{
@@ -943,22 +946,7 @@ export default function Component() {
                                   gap: "1.5rem",
                                 }}
                               >
-                                <a
-                                  className="shrink-0 cursor-pointer w-full _islarge svelte-1ko2zfs"
-                                  href="https://saltnbold.com/services"
-                                  style={{
-                                    borderWidth: "0px",
-                                    borderStyle: "solid",
-                                    borderColor: "rgb(229, 231, 235)",
-                                    boxSizing: "border-box",
-                                    textDecoration: "inherit",
-                                    color: "inherit",
-                                    width: "100%",
-                                    flexShrink: 0,
-                                    cursor: "pointer",
-                                    fontSize: "18px",
-                                  }}
-                                >
+                                  <HoverTapComponent>
                                   <button
                                     className="relative overflow-hidden shadow hover:shadow-md flex justify-center items-center w-full svelte-1ko2zfs"
                                     style={{
@@ -998,7 +986,7 @@ export default function Component() {
                                     {" "}
                                     Todos los servicios{" "}
                                   </button>
-                                </a>{" "}
+                                  </HoverTapComponent>
                               </div>
                             </div>{" "}
                           </div>
@@ -1713,23 +1701,7 @@ export default function Component() {
                                   gap: "1.5rem",
                                 }}
                               >
-                                <a
-                                  className="shrink-0 cursor-pointer w-full _islarge svelte-1ko2zfs"
-                                  href="https://buy.stripe.com/6oE3fygf92XXcuI14s"
-                                  target="_blank"
-                                  style={{
-                                    borderWidth: "0px",
-                                    borderStyle: "solid",
-                                    borderColor: "rgb(229, 231, 235)",
-                                    boxSizing: "border-box",
-                                    textDecoration: "inherit",
-                                    color: "inherit",
-                                    width: "100%",
-                                    flexShrink: 0,
-                                    cursor: "pointer",
-                                    fontSize: "18px",
-                                  }}
-                                >
+                                 <HoverTapComponent>
                                   <button
                                     className="relative overflow-hidden shadow hover:shadow-md flex justify-center items-center w-full svelte-1ko2zfs _alternative"
                                     style={{
@@ -1771,7 +1743,7 @@ export default function Component() {
                                     {" "}
                                     Suscribete{" "}
                                   </button>
-                                </a>{" "}
+                                  </HoverTapComponent>
                               </div>
                             </div>{" "}
                           </div>
@@ -1782,6 +1754,7 @@ export default function Component() {
                 </div>
               </div>
             </div>
+            </FadeInComponent>
           </div>
         </div>{" "}
       </div>

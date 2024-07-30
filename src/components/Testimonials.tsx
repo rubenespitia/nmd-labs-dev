@@ -1,4 +1,6 @@
 import React from "react";
+import FadeInComponent from "./piezas/headers/FadeInComponent";
+import BounceComponent from "./piezas/headers/BounceComponent";
 
 export default function Component() {
   return (
@@ -35,6 +37,7 @@ export default function Component() {
           }}
         >
           {" "}
+          <FadeInComponent>
           <div
             className="_section_titles relative w-full text-center"
             style={{
@@ -77,6 +80,7 @@ export default function Component() {
                   fontFamily: "DM Sans",
                 }}
               >
+
                 <div
                   className="mb-2"
                   style={{
@@ -124,6 +128,7 @@ export default function Component() {
               </div>
             </div>{" "}
           </div>{" "}
+          </FadeInComponent>
           <div
             className="w-full _container-width mx-auto overflow-x-auto"
             style={{
@@ -150,6 +155,7 @@ export default function Component() {
                 gridTemplateColumns: "repeat(3, minmax(0px, 1fr))",
               }}
             >
+              <BounceComponent>
               <div
                 className="break-inside-avoid mb-2 sm:col-span-1 sm:row-span-1"
                 style={{
@@ -184,6 +190,7 @@ export default function Component() {
                   }}
                 >
                   {" "}
+
                   <div
                     className="undefined flex flex-col relative z-10 justify-between h-full grid-cols-1 block sm:grid-cols- w-full rounded-2xl items-stretch content-start"
                     style={{
@@ -207,6 +214,7 @@ export default function Component() {
                       boxShadow: "rgba(255, 255, 255, 0.05) 0px 1px inset",
                     }}
                   >
+
                     <div
                       className="flex w-full h-full flex-col px-6 py-5 sm:px-6 sm:py-6 text-left self-center order-none-off false justify-end order-last-off"
                       style={{
@@ -533,8 +541,11 @@ export default function Component() {
                     </div>{" "}
 
                   </div>
+
                 </div>
               </div>
+              </BounceComponent>
+              <BounceComponent>
               <div
                 className="break-inside-avoid mb-2 sm:col-span-1 sm:row-span-1"
                 style={{
@@ -818,6 +829,8 @@ export default function Component() {
                   </div>
                 </div>
               </div>
+              </BounceComponent>
+              <BounceComponent>
               <div
                 className="break-inside-avoid mb-2 sm:col-span-1 sm:row-span-1"
                 style={{
@@ -1102,6 +1115,7 @@ export default function Component() {
                   </div>
                 </div>
               </div>
+              </BounceComponent>
             </div>
           </div>
         </div>

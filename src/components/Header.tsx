@@ -777,22 +777,7 @@ export default function Component() {
                       gap: "1.5rem",
                     }}
                   >
-                    <a
-                      className="shrink-0 cursor-pointer sm:w-auto _issmall svelte-1ko2zfs"
-                      href="https://cal.com/team/salt-and-bold/intro-call"
-                      target="_blank"
-                      style={{
-                        borderWidth: "0px",
-                        borderStyle: "solid",
-                        borderColor: "rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                        textDecoration: "inherit",
-                        color: "inherit",
-                        flexShrink: 0,
-                        width: "auto",
-                        cursor: "pointer",
-                      }}
-                    >
+
                       <button
                         className="relative overflow-hidden shadow hover:shadow-md flex justify-center items-center svelte-1ko2zfs"
                         style={{
@@ -831,7 +816,6 @@ export default function Component() {
                         {" "}
                         Llamanos →
                       </button>
-                    </a>{" "}
                   </div>
                 </div>{" "}
               </div>
