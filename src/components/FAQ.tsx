@@ -99,9 +99,10 @@ export default function Component() {
                       borderColor: "rgb(229, 231, 235)",
                       boxSizing: "border-box",
                       marginBottom: "0.5rem",
+                      fontFamily:"Helvetica"
                     }}
                   >
-                    Tienes Preguntas?
+                    ¿Tienes Preguntas?
                     <div
                       style={{
                         borderWidth: "0px",
@@ -110,7 +111,7 @@ export default function Component() {
                         boxSizing: "border-box",
                       }}
                     >
-                      Permitenos aclararte!
+                      ¡Estamos aquí para ayudarte!
                     </div>
                   </div>
                 </h3>{" "}
@@ -180,9 +181,10 @@ export default function Component() {
                         lineHeight: 1.3,
                         color: "#f6f5f4",
                         fontSize: "20px",
+                        fontFamily:"Helvetica"
                       }}
                     >
-                      Que es NOMADA?
+                      ¿Que es NOMADA?
                     </div>{" "}
                     <div
                       className="cursor-pointer opacity-80 hover:opacity-100 transition"
@@ -270,6 +272,7 @@ export default function Component() {
                       fontWeight: 400,
                       fontSize: "16px",
                       color: "#f5f5f5",
+                      fontFamily:"Helvetica"
                     }}
                   >
                     NOMADA is a design agency. We specialise in UI/UX
@@ -305,9 +308,10 @@ export default function Component() {
                         lineHeight: 1.3,
                         color: "#f6f5f4",
                         fontSize: "20px",
+                        fontFamily:"Helvetica"
                       }}
                     >
-                      Que hacemos?
+                      ¿Que hacemos?
                     </div>{" "}
                     <div
                       className="cursor-pointer opacity-80 hover:opacity-100 transition"
@@ -411,6 +415,7 @@ export default function Component() {
                           borderStyle: "solid",
                           borderColor: "rgb(229, 231, 235)",
                           boxSizing: "border-box",
+                          fontFamily:"Helvetica"
                         }}
                       >
                         Product design: prototyping, UI/UX product design, web
@@ -482,9 +487,10 @@ export default function Component() {
                         lineHeight: 1.3,
                         color: "#f6f5f4",
                         fontSize: "20px",
+                        fontFamily:"Helvetica"
                       }}
                     >
-                      Que herramientas usamos?
+                      ¿Que herramientas usamos?
                     </div>{" "}
                     <div
                       className="cursor-pointer opacity-80 hover:opacity-100 transition"
@@ -654,10 +660,10 @@ export default function Component() {
                         lineHeight: 1.3,
                         color: "#f6f5f4",
                         fontSize: "20px",
+                        fontFamily:"Helvetica"
                       }}
                     >
-                      Porque escoger NOMADA en 
-                      vez de tener un equipo propio?
+                      ¿Por qué escoger NOMADA?
                     </div>{" "}
                     <div
                       className="cursor-pointer opacity-80 hover:opacity-100 transition"
@@ -933,9 +939,10 @@ export default function Component() {
                         lineHeight: 1.3,
                         color: "#f6f5f4",
                         fontSize: "20px",
+                        fontFamily:"Helvetica"
                       }}
                     >
-                      Tengo ya un equipo, pueden trabajar en conjunto?
+                      Tengo ya un equipo. ¿Pueden trabajar en conjunto?
                     </div>{" "}
                     <div
                       className="cursor-pointer opacity-80 hover:opacity-100 transition"

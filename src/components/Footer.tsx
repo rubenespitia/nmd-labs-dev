@@ -241,10 +241,11 @@ export default function Component() {
                           transitionTimingFunction:
                             "cubic-bezier(0.4, 0, 0.2, 1)",
                           transitionDuration: "0.15s",
-                          color: "#2b65f9",
+                          color: "#F9F6EF",
                           width: "auto",
                           cursor: "pointer",
                           fontSize: "18px",
+                          fontFamily:"Helvetica"
                         }}
                       >
                         o escribe un mensaje
@@ -391,9 +392,10 @@ export default function Component() {
                   boxSizing: "border-box",
                   marginTop: "1rem",
                   opacity: 0.7,
+                  fontFamily:"Helvetica"
                 }}
               >
-                Obten el producto que venderá tu marca
+                ¡Obtén el producto que venderá tu marca!
               </div>
             </div>{" "}
             <div

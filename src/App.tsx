@@ -7,6 +7,8 @@ import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import Hero2Video from './components/Hero2Video';
+import CaseStudy from './components/CaseStudy';
+import CarouselProducts from './components/CarouselProducts';
 import './App.css';
 
 function App() {
@@ -15,7 +17,9 @@ function App() {
       <Header />
       <Hero />
       <Hero2Video />
+      <CaseStudy />
       <Services />
+      <CarouselProducts />
       <Subscription />
       <Testimonials />
       <FAQ />

@@ -500,7 +500,7 @@ export default function Component() {
                   fontSize: "0.875rem",
                   lineHeight: "1.25rem",
                   opacity: 0.8,
-                  marginLeft: "43rem",
+                  marginLeft: "50rem",
                   fontFamily: "Helvetica"
                 }}
               >

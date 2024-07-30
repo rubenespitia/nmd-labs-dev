@@ -98,9 +98,10 @@ export default function Component() {
                       borderColor: "rgb(229, 231, 235)",
                       boxSizing: "border-box",
                       marginBottom: "0.5rem",
+                      fontFamily:'Helvetica'
                     }}
                   >
-                    What you can ask?
+                    ¿Qué ofrecemos?
                   </div>
                 </h3>{" "}
                 <div
@@ -122,26 +123,7 @@ export default function Component() {
                     maxWidth: "768px",
                   }}
                 >
-                  <div
-                    style={{
-                      borderWidth: "0px",
-                      borderStyle: "solid",
-                      borderColor: "rgb(229, 231, 235)",
-                      boxSizing: "border-box",
-                    }}
-                  >
-                    Ask today - 
-                    <span
-                      style={{
-                        borderWidth: "0px",
-                        borderStyle: "solid",
-                        borderColor: "rgb(229, 231, 235)",
-                        boxSizing: "border-box",
-                      }}
-                    >
-                      get designs tomorrow. No hiring, no contract
-                    </span>
-                  </div>
+                
                 </div>
               </div>{" "}
             </div>{" "}
@@ -294,7 +276,7 @@ export default function Component() {
                                   boxSizing: "border-box",
                                 }}
                               >
-                                Servicios Inmediatos
+                                -
                               </div>
                             </h3>
                           </div>{" "}
@@ -322,9 +304,10 @@ export default function Component() {
                                 fontWeight: 700,
                                 fontSize: "2.25rem",
                                 lineHeight: "2.5rem",
+                                fontFamily:'Helvetica'
                               }}
                             >
-                              $150.00
+                              Creacion de contenido de alto valor
                             </div>{" "}
                             <div
                               className="text-lg opacity-70"
@@ -336,9 +319,10 @@ export default function Component() {
                                 fontSize: "1.125rem",
                                 lineHeight: "1.75rem",
                                 opacity: 0.7,
+                                fontFamily:'Helvetica'
                               }}
                             >
-                              /por servicio realizado
+                              /pregunta por nuestros precios
                             </div>
                           </div>{" "}
                           <div
@@ -350,9 +334,10 @@ export default function Component() {
                               boxSizing: "border-box",
                               marginBottom: "2rem",
                               opacity: 0.7,
+                              fontFamily:'Helvetica'
                             }}
                           >
-                            Escoge cualquier servicio por $150
+                            Hola
                           </div>{" "}
                           <div
                             className="mb-4 _section-description"
@@ -455,7 +440,7 @@ export default function Component() {
                                   </div>
                                 </div>
                               </div>{" "}
-                              Logo & branding{" "}
+                              Desarrollo de marca solido{" "}
                             </div>
                             <div
                               className="my-1 sm:my-2 flex items-start"
@@ -545,7 +530,7 @@ export default function Component() {
                                   </div>
                                 </div>
                               </div>{" "}
-                              Social media assets{" "}
+                              Optimizacion de presupuesto{" "}
                             </div>
                             <div
                               className="my-1 sm:my-2 flex items-start"
@@ -635,7 +620,7 @@ export default function Component() {
                                   </div>
                                 </div>
                               </div>{" "}
-                              Product prototype{" "}
+                              Placeholder{" "}
                             </div>
                             <div
                               className="my-1 sm:my-2 flex items-start"
@@ -725,7 +710,7 @@ export default function Component() {
                                   </div>
                                 </div>
                               </div>{" "}
-                              Landing page{" "}
+                              Placeholder{" "}
                             </div>
                             <div
                               className="my-1 sm:my-2 flex items-start"
@@ -815,7 +800,7 @@ export default function Component() {
                                   </div>
                                 </div>
                               </div>{" "}
-                              Pitch deck{" "}
+                              Placeholder{" "}
                             </div>
                             <div
                               className="my-1 sm:my-2 flex items-start"
@@ -905,7 +890,7 @@ export default function Component() {
                                   </div>
                                 </div>
                               </div>{" "}
-                              Design audit{" "}
+                              Placeholder{" "}
                             </div>
                           </div>
                         </div>{" "}
@@ -1007,10 +992,11 @@ export default function Component() {
                                       borderRadius: "28px",
                                       fontSize: "17px",
                                       fontWeight: 500,
+                                      
                                     }}
                                   >
                                     {" "}
-                                    See all services{" "}
+                                    Todos los servicios{" "}
                                   </button>
                                 </a>{" "}
                               </div>
@@ -1144,7 +1130,7 @@ export default function Component() {
                                   boxSizing: "border-box",
                                 }}
                               >
-                                Subscripcion semanal
+                                -
                               </div>
                             </h3>
                           </div>{" "}
@@ -1172,9 +1158,10 @@ export default function Component() {
                                 fontWeight: 700,
                                 fontSize: "2.25rem",
                                 lineHeight: "2.5rem",
+                                fontFamily:'Helvetica'
                               }}
                             >
-                              $420.00
+                              Subscripcion semanal
                             </div>{" "}
                             <div
                               className="text-lg opacity-70"
@@ -1186,9 +1173,10 @@ export default function Component() {
                                 fontSize: "1.125rem",
                                 lineHeight: "1.75rem",
                                 opacity: 0.7,
+                                fontFamily:'Helvetica'
                               }}
                             >
-                              /semanal
+                              /Pregunta por nuestros precios
                             </div>
                           </div>{" "}
                           <div
@@ -1200,6 +1188,7 @@ export default function Component() {
                               boxSizing: "border-box",
                               marginBottom: "2rem",
                               opacity: 0.7,
+                              fontFamily:"Helvetica"
                             }}
                           >
                            Ten un diseñador dedicado en tu proyecto
@@ -1300,6 +1289,7 @@ export default function Component() {
                                         borderStyle: "solid",
                                         borderColor: "rgb(229, 231, 235)",
                                         boxSizing: "border-box",
+                                        fontFamily:"Helvetica"
                                       }}
                                     />
                                   </div>
@@ -1390,6 +1380,7 @@ export default function Component() {
                                         borderStyle: "solid",
                                         borderColor: "rgb(229, 231, 235)",
                                         boxSizing: "border-box",
+                                        fontFamily:"Helvetica"
                                       }}
                                     />
                                   </div>
@@ -1481,6 +1472,7 @@ export default function Component() {
                                         borderStyle: "solid",
                                         borderColor: "rgb(229, 231, 235)",
                                         boxSizing: "border-box",
+                                        fontFamily:"Helvetica"
                                       }}
                                     />
                                   </div>
@@ -1571,6 +1563,7 @@ export default function Component() {
                                         borderStyle: "solid",
                                         borderColor: "rgb(229, 231, 235)",
                                         boxSizing: "border-box",
+                                        fontFamily:"Helvetica"
                                       }}
                                     />
                                   </div>
@@ -1661,6 +1654,7 @@ export default function Component() {
                                         borderStyle: "solid",
                                         borderColor: "rgb(229, 231, 235)",
                                         boxSizing: "border-box",
+                                        fontFamily:"Helvetica"
                                       }}
                                     />
                                   </div>
@@ -1771,10 +1765,11 @@ export default function Component() {
                                       borderRadius: "28px",
                                       fontSize: "17px",
                                       fontWeight: 500,
+                                      
                                     }}
                                   >
                                     {" "}
-                                    Get subscription{" "}
+                                    Suscribete{" "}
                                   </button>
                                 </a>{" "}
                               </div>

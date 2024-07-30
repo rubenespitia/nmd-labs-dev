@@ -27,17 +27,20 @@
   }
   
   .item-1 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(128, 128, 128);
     border-radius: 15px 0 0 0; /* Bordes redondeados específicos */
   }
   
   .item-1 .text-box {
-    background-color: gray;
+    background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     border: 7px solid black;
     padding: 10px;
-    border-radius: 10px; /* Bordes redondeados dentro del cuadro de texto */
+    border-radius: 0px; /* Bordes redondeados dentro del cuadro de texto */
     font-family: Helvetica;
+    padding-right: 30px;
+    margin-right: 20px;
+    
   }
   
   .item-2 {
@@ -46,7 +49,6 @@
   }
   
   .item-2 .image {
-    max-width: 100%;
     max-height: 100%;
     border-radius: 10px; /* Bordes redondeados de la imagen */
   }
@@ -57,7 +59,6 @@
   }
   
   .item-3 .image {
-    max-width: 100%;
     max-height: 100%;
     border-radius: 10px; /* Bordes redondeados de la imagen */
   }
@@ -68,11 +69,13 @@
   }
   
   .item-4 .text-box {
-    background-color: black;
-    color: white;
-    border: 2px solid white;
-    padding: 10px;
-    border-radius: 10px; /* Bordes redondeados dentro del cuadro de texto */
-    font-family: Helvetica;
+    background-color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
+      border: 7px solid black;
+      padding: 10px;
+      border-radius: 0px;
+      /* Bordes redondeados dentro del cuadro de texto */
+      font-family: Helvetica;
+      padding-right: 30px;
   }
   
