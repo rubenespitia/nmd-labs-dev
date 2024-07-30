@@ -529,10 +529,10 @@ export default function Component() {
         maxWidth: "600px", // Ajusta el tamaño máximo del contenedor del GIF si es necesario
       }}
     >
-              <FadeInComponent>
-              <HoverTapComponent>
+      <FadeInComponent>
+      <HoverTapComponent>
       <img
-        src="/assets/stock_images/hero_gif.gif"
+        src={`${process.env.PUBLIC_URL}/assets/stock_images/hero_gif.gif`} className="image"
         alt="My GIF"
         style={{
           width: "145%", // Ajusta el tamaño del GIF
