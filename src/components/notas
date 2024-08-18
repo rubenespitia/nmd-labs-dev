@@ -1,0 +1,221 @@
+<img
+                  className="rounded-full svelte-iy6bba"
+                  alt="Avatar of user 4"
+                  src="https://ship-app-assets.fra1.digitaloceanspaces.com/stream/recTKH5haJV20MzAq/1716299074558-Ellipse 11.png"
+                  style={{
+                    borderWidth: "0px",
+                    borderStyle: "solid",
+                    borderColor: "rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    display: "block",
+                    verticalAlign: "middle",
+                    maxWidth: "100%",
+                    borderRadius: "9999px",
+                    border: "2px #101010 solid",
+                    width: "30px",
+                    height: "30px",
+                    marginRight: "-10px",
+                  }}
+                />
+                <img
+                  className="rounded-full svelte-iy6bba"
+                  alt="Avatar of user 5"
+                  src="https://ship-app-assets.fra1.digitaloceanspaces.com/stream/recTKH5haJV20MzAq/1716299102174-image.png"
+                  style={{
+                    borderWidth: "0px",
+                    borderStyle: "solid",
+                    borderColor: "rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    display: "block",
+                    verticalAlign: "middle",
+                    maxWidth: "100%",
+                    borderRadius: "9999px",
+                    border: "2px #101010 solid",
+                    width: "30px",
+                    height: "30px",
+                    marginRight: "-10px",
+                  }}
+                />
+                <img
+                  className="rounded-full svelte-iy6bba"
+                  alt="Avatar of user 6"
+                  src="https://ship-app-assets.fra1.digitaloceanspaces.com/stream/recTKH5haJV20MzAq/1716299083123-Ellipse 14.png"
+                  style={{
+                    borderWidth: "0px",
+                    borderStyle: "solid",
+                    borderColor: "rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    display: "block",
+                    verticalAlign: "middle",
+                    maxWidth: "100%",
+                    borderRadius: "9999px",
+                    border: "2px #101010 solid",
+                    width: "30px",
+                    height: "30px",
+                    marginRight: "-10px",
+                  }}
+                />
+                <img
+                  className="rounded-full svelte-iy6bba"
+                  alt="Avatar of user 7"
+                  src="https://ship-app-assets.fra1.digitaloceanspaces.com/stream/recTKH5haJV20MzAq/1716299121806-image.png"
+                  style={{
+                    borderWidth: "0px",
+                    borderStyle: "solid",
+                    borderColor: "rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    display: "block",
+                    verticalAlign: "middle",
+                    maxWidth: "100%",
+                    borderRadius: "9999px",
+                    border: "2px #101010 solid",
+                    width: "30px",
+                    height: "30px",
+                    marginRight: "-10px",
+                  }}
+                />
+                <img
+                  className="rounded-full svelte-iy6bba"
+                  alt="Avatar of user 8"
+                  src="https://ship-app-assets.fra1.digitaloceanspaces.com/stream/recTKH5haJV20MzAq/1716299133946-image.png"
+                  style={{
+                    borderWidth: "0px",
+                    borderStyle: "solid",
+                    borderColor: "rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    display: "block",
+                    verticalAlign: "middle",
+                    maxWidth: "100%",
+                    borderRadius: "9999px",
+                    border: "2px #101010 solid",
+                    width: "30px",
+                    height: "30px",
+                    marginRight: "-10px",
+                  }}
+                />
+                <img
+                  className="rounded-full svelte-iy6bba"
+                  alt="Avatar of user 9"
+                  src="https://ship-app-assets.fra1.digitaloceanspaces.com/stream/recTKH5haJV20MzAq/1716299144069-image.png"
+                  style={{
+                    borderWidth: "0px",
+                    borderStyle: "solid",
+                    borderColor: "rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    display: "block",
+                    verticalAlign: "middle",
+                    maxWidth: "100%",
+                    borderRadius: "9999px",
+                    border: "2px #101010 solid",
+                    width: "30px",
+                    height: "30px",
+                    marginRight: "-10px",
+                  }}
+                />
+                <img
+                  className="rounded-full svelte-iy6bba"
+                  alt="Avatar of user 10"
+                  src="https://ship-app-assets.fra1.digitaloceanspaces.com/stream/recTKH5haJV20MzAq/1716299209201-image.png"
+                  style={{
+                    borderWidth: "0px",
+                    borderStyle: "solid",
+                    borderColor: "rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    display: "block",
+                    verticalAlign: "middle",
+                    maxWidth: "100%",
+                    borderRadius: "9999px",
+                    border: "2px #101010 solid",
+                    width: "30px",
+                    height: "30px",
+                    marginRight: "-10px",
+                  }}
+                />
+                <img
+                  className="rounded-full svelte-iy6bba"
+                  alt="Avatar of user 11"
+                  src="https://ship-app-assets.fra1.digitaloceanspaces.com/stream/recTKH5haJV20MzAq/1716299197983-image.png"
+                  style={{
+                    borderWidth: "0px",
+                    borderStyle: "solid",
+                    borderColor: "rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    display: "block",
+                    verticalAlign: "middle",
+                    maxWidth: "100%",
+                    borderRadius: "9999px",
+                    border: "2px #101010 solid",
+                    width: "30px",
+                    height: "30px",
+                    marginRight: "-10px",
+                  }}
+                />
+                <img
+                  className="rounded-full svelte-iy6bba"
+                  alt="Avatar of user 12"
+                  src="https://ship-app-assets.fra1.digitaloceanspaces.com/stream/recTKH5haJV20MzAq/1716299169359-image.png"
+                  style={{
+                    borderWidth: "0px",
+                    borderStyle: "solid",
+                    borderColor: "rgb(229, 231, 235)",
+                    boxSizing: "border-box",
+                    display: "block",
+                    verticalAlign: "middle",
+                    maxWidth: "100%",
+                    borderRadius: "9999px",
+                    border: "2px #101010 solid",
+                    width: "30px",
+                    height: "30px",
+                  }}
+                />
+
+
+-----
+
+
+                <FadeInComponent>
+        <div className="centered-container">
+          <div className="grid-container" style={{borderWidth:'0px'}}>
+
+            <div className="grid-item item-1" style={{display:"flex"}}>
+              <div className="text-box" style={{borderWidth:'0px'}}>
+                <h4 style={{fontFamily:'Helvetica', fontSize:'30px', color:'#F9F6EF', fontWeight:'bold'}}>
+                <ScaleUpComponent>
+                  QUE TU COMPETENCIA TE SIGA
+                  NO TE ALCANCE
+                  </ScaleUpComponent>
+                </h4>
+                <h6 style={{fontFamily:'inherit', fontSize:'18px', color:'#d0cabc'}}>
+                <ScaleUpComponent>
+                  Desarrollamos una propuesta de valor unica y potente que destaca y
+                  posiciona tu marca com olider indiscutible en el mercado.
+                  </ScaleUpComponent>
+                </h6>
+              </div>
+            </div>
+
+            <div className="grid-item item-2">
+              <img src={`${process.env.PUBLIC_URL}/assets/stock_images/nomad_1.png`} alt="Imagen 1" className="image"/>
+            </div>
+            <div className="grid-item item-3">
+              <img src={`${process.env.PUBLIC_URL}/assets/stock_images/nomad_2.png`} alt="Imagen 2" className="image"/>
+            </div>
+            <div className="grid-item item-4">
+              <div className="text-box">
+                <h4 style={{fontFamily:'Helvetica', fontSize:'30px', color:'#F9F6EF', fontWeight:'bold'}}>
+                    <ScaleUpComponent>
+                    CONVIERTE ATENCION EN LEALTAD
+                    </ScaleUpComponent>
+                  </h4>
+                  <h6 style={{fontFamily:'inherit', fontSize:'18px', color:'#d0cabc'}}>
+                    <ScaleUpComponent>
+                    Implementamos camañas que involucran activamente a los usuarios y
+                     los motivan a participar, reforzando su vinculo con la marca
+                     </ScaleUpComponent>
+                  </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        </FadeInComponent>
+       

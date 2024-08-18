@@ -18,10 +18,11 @@ function App() {
       <Header />
       <Hero />
       <Hero2Video />
+      <Subscription />
+      <CarouselProducts />
       <CaseStudy />
       <Services />
-      <CarouselProducts />
-      <Subscription />
+      
       <Testimonials />
       <FAQ />
       <Footer />
