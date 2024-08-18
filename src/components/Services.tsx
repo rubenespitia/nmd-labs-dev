@@ -279,7 +279,7 @@ export default function Component() {
                                   boxSizing: "border-box",
                                 }}
                               >
-                                -
+                                
                               </div>
                             </h3>
                           </div>{" "}
@@ -325,7 +325,7 @@ export default function Component() {
                                 fontFamily:'Helvetica'
                               }}
                             >
-                              /pregunta por nuestros precios
+                              /Pregunta por nuestros precios
                             </div>
                           </div>{" "}
                           <div
@@ -340,7 +340,7 @@ export default function Component() {
                               fontFamily:'Helvetica'
                             }}
                           >
-                            Hola
+                            
                           </div>{" "}
                           <div
                             className="mb-4 _section-description"
@@ -366,6 +366,7 @@ export default function Component() {
                                 alignItems: "flex-start",
                                 marginTop: "0.5rem",
                                 marginBottom: "0.5rem",
+                                fontFamily: "Helvetica"
                               }}
                             >
                               <div
@@ -456,6 +457,7 @@ export default function Component() {
                                 alignItems: "flex-start",
                                 marginTop: "0.5rem",
                                 marginBottom: "0.5rem",
+                                fontFamily:"Helvetica"
                               }}
                             >
                               <div
@@ -546,6 +548,7 @@ export default function Component() {
                                 alignItems: "flex-start",
                                 marginTop: "0.5rem",
                                 marginBottom: "0.5rem",
+                                fontFamily:"Helvetica"
                               }}
                             >
                               <div
@@ -1118,7 +1121,7 @@ export default function Component() {
                                   boxSizing: "border-box",
                                 }}
                               >
-                                -
+                                
                               </div>
                             </h3>
                           </div>{" "}
@@ -1205,6 +1208,7 @@ export default function Component() {
                                 alignItems: "flex-start",
                                 marginTop: "0.5rem",
                                 marginBottom: "0.5rem",
+                                fontFamily: "Helvetica",
                               }}
                             >
                               <div
@@ -1296,6 +1300,7 @@ export default function Component() {
                                 alignItems: "flex-start",
                                 marginTop: "0.5rem",
                                 marginBottom: "0.5rem",
+                                fontFamily: "Helvetica"
                               }}
                             >
                               <div
@@ -1388,6 +1393,7 @@ export default function Component() {
                                 alignItems: "flex-start",
                                 marginTop: "0.5rem",
                                 marginBottom: "0.5rem",
+                                fontFamily:"Helvetica"
                               }}
                             >
                               <div
@@ -1479,6 +1485,7 @@ export default function Component() {
                                 alignItems: "flex-start",
                                 marginTop: "0.5rem",
                                 marginBottom: "0.5rem",
+                                fontFamily: "Helvetica"
                               }}
                             >
                               <div
@@ -1570,6 +1577,7 @@ export default function Component() {
                                 alignItems: "flex-start",
                                 marginTop: "0.5rem",
                                 marginBottom: "0.5rem",
+                                fontFamily:"Helvetica"
                               }}
                             >
                               <div

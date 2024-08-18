@@ -209,7 +209,7 @@ export default function Component() {
                           }}
                         >
                           {" "}
-                          Llamanos →
+                          Agenda tu cita
                         </button>
                         </HoverTapComponent>
                         </FadeInComponent>
