@@ -23,6 +23,7 @@ export default function Component() {
           fontSize: "18px",
           font: "18px / 27.9px Poppins",
           lineHeight: "27.9px",
+          
         }}
       >
         <div
@@ -814,7 +815,7 @@ export default function Component() {
                         }}
                       >
                         {" "}
-                        Llamanos →
+                        Llamanos
                       </button>
                   </div>
                 </div>{" "}

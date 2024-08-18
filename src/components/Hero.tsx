@@ -18,14 +18,18 @@ export default function Component() {
           display: "flex",
           height: "100%",
           alignItems: "center",
-          paddingTop: "6rem",
-          paddingBottom: "6rem",
+          paddingTop: "16rem",
+          paddingBottom: "12rem",
+          paddingLeft: "4rem",
+          paddingRight: "2rem",
           color: "rgb(245, 245, 245)",
           fontFamily: "Poppins",
           fontSize: "18px",
           font: "18px / 27.9px Poppins",
           lineHeight: "27.9px",
-          alignContent: "center"
+          alignContent: "center",
+          
+          
         }}
       >
         <div
@@ -42,6 +46,7 @@ export default function Component() {
             justifyContent: "space-between",
             flexDirection: "row",
             padding: "0px",
+            
           }}
         >
           <div
@@ -56,6 +61,7 @@ export default function Component() {
               marginRight: "2rem",
               marginLeft: "2rem",
               textAlign: "center",
+              
             }}
           >
             {" "}
@@ -80,7 +86,8 @@ export default function Component() {
                   borderStyle: "solid",
                   borderColor: "rgb(229, 231, 235)",
                   boxSizing: "border-box",
-                  fontFamily: "Helvetica"
+                  fontFamily: "Helvetica",
+                  
                 }}
               >
 
@@ -113,9 +120,10 @@ export default function Component() {
                   }}
                 >
                   <FadeInComponent>
-                    Olvidamos el marketing tradicional diseñando estrategias que dominan
-                    el juego. No se trata solo de vender más, sino de impactar,
-                    transformar y liderar tu industria.
+                    Olvidamos el marketing tradicional, diseñando estrategias que dominan. 
+                    <br></br>
+                    No se trata solo de vender más, sino de impactar,
+                    transformar y liderar.
                   </FadeInComponent>
                 </h2>
               </div>
@@ -188,9 +196,11 @@ export default function Component() {
                           borderRadius: "32px",
                           fontSize: "18px",
                           fontWeight: 500,
+                          marginTop: "1rem",
+                          paddingTop:"0.6rem",
                         }}
                       >
-                        Llamanos →
+                        Contáctanos
                       </button>
                     </HoverTapComponent>
                     </FadeInComponent>
@@ -204,7 +214,6 @@ export default function Component() {
                     borderStyle: "solid",
                     borderColor: "rgb(229, 231, 235)",
                     boxSizing: "border-box",
-                    marginTop: "1rem",
                     maxWidth: "400px",
                     fontSize: "0.875rem",
                     lineHeight: "1.25rem",
@@ -232,7 +241,6 @@ export default function Component() {
                 borderStyle: "solid",
                 borderColor: "rgb(229, 231, 235)",
                 boxSizing: "border-box",
-                paddingTop: "1rem",
                 paddingBottom: "1rem",
                 marginTop: "4rem",
               }}
@@ -262,8 +270,8 @@ export default function Component() {
                     maxWidth: "100%",
                     borderRadius: "9999px",
                     border: "2px #101010 solid",
-                    width: "30px",
-                    height: "30px",
+                    width: "70px",
+                    height: "70px",
                     marginRight: "-10px",
                   }}
                 />
@@ -281,8 +289,8 @@ export default function Component() {
                     maxWidth: "100%",
                     borderRadius: "9999px",
                     border: "2px #101010 solid",
-                    width: "30px",
-                    height: "30px",
+                    width: "70px",
+                    height: "70px",
                     marginRight: "-10px",
                   }}
                 />
@@ -300,181 +308,12 @@ export default function Component() {
                     maxWidth: "100%",
                     borderRadius: "9999px",
                     border: "2px #101010 solid",
-                    width: "30px",
-                    height: "30px",
+                    width: "70px",
+                    height: "70px",
                     marginRight: "-10px",
                   }}
                 />
-                <img
-                  className="rounded-full svelte-iy6bba"
-                  alt="Avatar of user 4"
-                  src="https://ship-app-assets.fra1.digitaloceanspaces.com/stream/recTKH5haJV20MzAq/1716299074558-Ellipse 11.png"
-                  style={{
-                    borderWidth: "0px",
-                    borderStyle: "solid",
-                    borderColor: "rgb(229, 231, 235)",
-                    boxSizing: "border-box",
-                    display: "block",
-                    verticalAlign: "middle",
-                    maxWidth: "100%",
-                    borderRadius: "9999px",
-                    border: "2px #101010 solid",
-                    width: "30px",
-                    height: "30px",
-                    marginRight: "-10px",
-                  }}
-                />
-                <img
-                  className="rounded-full svelte-iy6bba"
-                  alt="Avatar of user 5"
-                  src="https://ship-app-assets.fra1.digitaloceanspaces.com/stream/recTKH5haJV20MzAq/1716299102174-image.png"
-                  style={{
-                    borderWidth: "0px",
-                    borderStyle: "solid",
-                    borderColor: "rgb(229, 231, 235)",
-                    boxSizing: "border-box",
-                    display: "block",
-                    verticalAlign: "middle",
-                    maxWidth: "100%",
-                    borderRadius: "9999px",
-                    border: "2px #101010 solid",
-                    width: "30px",
-                    height: "30px",
-                    marginRight: "-10px",
-                  }}
-                />
-                <img
-                  className="rounded-full svelte-iy6bba"
-                  alt="Avatar of user 6"
-                  src="https://ship-app-assets.fra1.digitaloceanspaces.com/stream/recTKH5haJV20MzAq/1716299083123-Ellipse 14.png"
-                  style={{
-                    borderWidth: "0px",
-                    borderStyle: "solid",
-                    borderColor: "rgb(229, 231, 235)",
-                    boxSizing: "border-box",
-                    display: "block",
-                    verticalAlign: "middle",
-                    maxWidth: "100%",
-                    borderRadius: "9999px",
-                    border: "2px #101010 solid",
-                    width: "30px",
-                    height: "30px",
-                    marginRight: "-10px",
-                  }}
-                />
-                <img
-                  className="rounded-full svelte-iy6bba"
-                  alt="Avatar of user 7"
-                  src="https://ship-app-assets.fra1.digitaloceanspaces.com/stream/recTKH5haJV20MzAq/1716299121806-image.png"
-                  style={{
-                    borderWidth: "0px",
-                    borderStyle: "solid",
-                    borderColor: "rgb(229, 231, 235)",
-                    boxSizing: "border-box",
-                    display: "block",
-                    verticalAlign: "middle",
-                    maxWidth: "100%",
-                    borderRadius: "9999px",
-                    border: "2px #101010 solid",
-                    width: "30px",
-                    height: "30px",
-                    marginRight: "-10px",
-                  }}
-                />
-                <img
-                  className="rounded-full svelte-iy6bba"
-                  alt="Avatar of user 8"
-                  src="https://ship-app-assets.fra1.digitaloceanspaces.com/stream/recTKH5haJV20MzAq/1716299133946-image.png"
-                  style={{
-                    borderWidth: "0px",
-                    borderStyle: "solid",
-                    borderColor: "rgb(229, 231, 235)",
-                    boxSizing: "border-box",
-                    display: "block",
-                    verticalAlign: "middle",
-                    maxWidth: "100%",
-                    borderRadius: "9999px",
-                    border: "2px #101010 solid",
-                    width: "30px",
-                    height: "30px",
-                    marginRight: "-10px",
-                  }}
-                />
-                <img
-                  className="rounded-full svelte-iy6bba"
-                  alt="Avatar of user 9"
-                  src="https://ship-app-assets.fra1.digitaloceanspaces.com/stream/recTKH5haJV20MzAq/1716299144069-image.png"
-                  style={{
-                    borderWidth: "0px",
-                    borderStyle: "solid",
-                    borderColor: "rgb(229, 231, 235)",
-                    boxSizing: "border-box",
-                    display: "block",
-                    verticalAlign: "middle",
-                    maxWidth: "100%",
-                    borderRadius: "9999px",
-                    border: "2px #101010 solid",
-                    width: "30px",
-                    height: "30px",
-                    marginRight: "-10px",
-                  }}
-                />
-                <img
-                  className="rounded-full svelte-iy6bba"
-                  alt="Avatar of user 10"
-                  src="https://ship-app-assets.fra1.digitaloceanspaces.com/stream/recTKH5haJV20MzAq/1716299209201-image.png"
-                  style={{
-                    borderWidth: "0px",
-                    borderStyle: "solid",
-                    borderColor: "rgb(229, 231, 235)",
-                    boxSizing: "border-box",
-                    display: "block",
-                    verticalAlign: "middle",
-                    maxWidth: "100%",
-                    borderRadius: "9999px",
-                    border: "2px #101010 solid",
-                    width: "30px",
-                    height: "30px",
-                    marginRight: "-10px",
-                  }}
-                />
-                <img
-                  className="rounded-full svelte-iy6bba"
-                  alt="Avatar of user 11"
-                  src="https://ship-app-assets.fra1.digitaloceanspaces.com/stream/recTKH5haJV20MzAq/1716299197983-image.png"
-                  style={{
-                    borderWidth: "0px",
-                    borderStyle: "solid",
-                    borderColor: "rgb(229, 231, 235)",
-                    boxSizing: "border-box",
-                    display: "block",
-                    verticalAlign: "middle",
-                    maxWidth: "100%",
-                    borderRadius: "9999px",
-                    border: "2px #101010 solid",
-                    width: "30px",
-                    height: "30px",
-                    marginRight: "-10px",
-                  }}
-                />
-                <img
-                  className="rounded-full svelte-iy6bba"
-                  alt="Avatar of user 12"
-                  src="https://ship-app-assets.fra1.digitaloceanspaces.com/stream/recTKH5haJV20MzAq/1716299169359-image.png"
-                  style={{
-                    borderWidth: "0px",
-                    borderStyle: "solid",
-                    borderColor: "rgb(229, 231, 235)",
-                    boxSizing: "border-box",
-                    display: "block",
-                    verticalAlign: "middle",
-                    maxWidth: "100%",
-                    borderRadius: "9999px",
-                    border: "2px #101010 solid",
-                    width: "30px",
-                    height: "30px",
-                  }}
-                />
+                
               </div>{" "}
 
             <div
@@ -485,7 +324,7 @@ export default function Component() {
                 borderColor: "rgb(229, 231, 235)",
                 boxSizing: "border-box",
                 marginTop: "0.5rem",
-                fontSize: "0.875rem",
+                fontSize: "1.3rem",
                 lineHeight: "1.25rem",
                 opacity: 0.8,
                 fontFamily: "Helvetica",
@@ -522,6 +361,7 @@ export default function Component() {
   >
     <div
       style={{
+        marginLeft:"2rem",
         display: "flex",
         alignItems: "left",
         justifyContent: "center",
