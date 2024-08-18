@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import ReactPlayer from 'react-player/youtube';
 import '../styles/GridComponent.css';
 import FadeInComponent from "./piezas/headers/FadeInComponent";
 import ScaleUpComponent from "./piezas/headers/ScaleUpComponent";
-
+import VideoTab from "./piezas/middle/VideoTab";
 import HoverTapComponent from "./piezas/headers/HoverTapComponent";
 import AnimatedComponent from "./piezas/headers/AnimatedComponent";
 
 export default function Component() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.volume = 0; // Ajusta el volumen a 100%
+    }
+  }, []);
   return (
     <>
       <div
@@ -60,17 +67,25 @@ export default function Component() {
             }}
           >
             <FadeInComponent>
+            <div className="video-tab">
               <div className="player-wrapper" style={{ position: 'relative', paddingTop: '56.25%' /* Aspect ratio 16:9 */ }}>
-                <ReactPlayer
-                  url="https://www.youtube.com/watch?v=ssfkASaR2Ww"
-                  className="react-player"
-                  playing={false}
-                  controls={true}
-                  width="100%"
-                  height="100%"
-                  style={{ position: 'absolute', top: 0, left: 0 }}
-                />
+                <video
+                  ref={videoRef}
+                  src={`${process.env.PUBLIC_URL}/assets/videos/intro1.mp4`}  // Ruta del video dentro de la carpeta public
+                  controls  // Muestra los controles del reproductor
+                  autoPlay  // Reproduce el video automáticamente
+                  loop  // Reproduce el video en bucle
+                  width="50%"  // El video ocupa todo el ancho disponible
+                  height="100%" // El video ocupa toda la altura disponible
+                  style={{        position: 'absolute',
+                    top: '50%',
+                    left: '50%',
+                    transform: 'translate(-50%, -50%)'}}  // Posiciona el video en la esquina superior izquierda
+                >
+                  Tu navegador no soporta la etiqueta de video.
+                </video>
               </div>
+            </div>
             </FadeInComponent>
           </div>
           <div

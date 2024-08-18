@@ -180,7 +180,7 @@ export default function Component() {
                     fontFamily:"Helvetica"
                   }}
                 >
-                  Servicios{" "}
+                  {/*Servicios{" "}*/}
                   <div
                     style={{
                       borderWidth: "0px",
@@ -216,6 +216,7 @@ export default function Component() {
                         transitionDuration: "0.15s",
                       }}
                     >
+                      {/*}
                       <polyline
                         points="6 9 12 15 18 9"
                         style={{
@@ -225,6 +226,7 @@ export default function Component() {
                           boxSizing: "border-box",
                         }}
                       />
+                      */}
                     </svg>{" "}
                     <i
                       style={{
