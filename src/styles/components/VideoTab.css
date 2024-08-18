@@ -1,0 +1,11 @@
+/* src/App.css */
+.video-tab {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .video-tab video {
+    border: 2px solid #000;
+    border-radius: 8px;
+  }
+  
