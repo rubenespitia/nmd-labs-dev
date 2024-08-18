@@ -2,6 +2,7 @@
 
 .subscription {
     padding: 20px;
+    padding-bottom: 9rem;
   }
   
   .subscription h2 {
@@ -13,7 +14,6 @@
     border-style: solid;
     border-color: rgb(229, 231, 235);
     box-sizing: border-box;
-    margin: 0px;
     font-family: Helvetica;
     line-height: inherit;
     text-transform: none;
@@ -48,9 +48,11 @@
       border-radius: 32px;
       font-size: 18px;
       font-weight: 500;
-      margin-top: 1rem;
+      /* margin-top: 1rem;
       padding-top: 0.6rem;
-      margin-left: 9rem;
+      margin-left: 9rem; */
+      height: auto;
+      margin-top: auto;
   }
 
   .subscription-cards {
@@ -59,21 +61,40 @@
     margin-top: 20px;
   }
   
+
+
   .subscription-card {
     background-color: #1E1E1E; /* Fondo opcional para mejor visualización */
     padding: 20px;
-    border-radius: 10px;
-    width: 110%;
+    border-radius: 22px;
+    width: 300px;  /* Initial collapsed width */
+    transition: all 0.5s ease; /* Smooth transition */
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
-    height: 200px;
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+    height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: normal;
     align-items: center;
     text-align: center;
   }
-  
+
+  .subscription-card.expanded{
+    width: 700px;
+    height: 300px;
+    transition: all 0.5s ease;
+  }
+
+  .card-content{
+    opacity: 1;
+    transition: opacity 0.5 ease;
+  }
+
+  .card-content.hidden{
+    opacity: 0;
+    transition: all 0.5s ease;
+  }
+
   /* Clases para letras negras y blancas */
   .text-black {
     color: white;
@@ -85,5 +106,102 @@
     font-family: Helvetica;
   }
 
+    .card-container-servicios {
+      transition: all 0.5s ease;
+      background-color: #1e1e1e;
+      /* Dark background */
+      color: white;
+      /* Text color */
+      padding: 20px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+      width: 700px;
+      transition: all 0.5s ease;
+    }
+  
+    .card-content-servicios {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      transition: all 0.5s ease;
+    }
+  
+    .text-section-servicios {
+      flex: 2;
+      margin-right: 20px;
+      transition: all 0.5s ease;
+    }
+  
+    .text-section-servicios h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  
+    .text-section-servicios ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-bottom: 20px;
+    }
+  
+    .text-section-servicios ul li {
+      font-size: 16px;
+      margin-bottom: 5px;
+      font-family: Helvetica;
+      text-align: left;
+    }
+  
+    .cta-text {
+      color: #f7941d;
+      /* CTA in orange */
+      font-size: 40px;
+      font-weight: bold;
+    }
+  
+    .text-section-servicios p {
+      font-size: 14px;
+      margin-top: 20px;
+    }
+  
+    .image-section {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 3rem;
 
+    }
+  
+    .image-placeholder {
+      width: 120px;
+      height: 120px;
+      border-radius: 15px;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: black;
+      text-align: center;
+    }
+  
+    .image-placeholder p {
+      font-size: 12px;
+      color: #333;
+    }
+
+.clickable-text {
+  color: #ffffff;
+  /* A shade of blue for clickable links */
+  text-decoration: underline;
+  cursor: pointer;
+  /* Makes it clear that this is clickable */
+  transition: color 0.3s ease;
+}
+
+.clickable-text:hover {
+  color: #bc0704;
+  /* Darker shade of blue on hover */
+}
   
